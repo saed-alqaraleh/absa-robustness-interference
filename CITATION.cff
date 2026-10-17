@@ -16,10 +16,10 @@ authors:
     given-names: Saed
     affiliation: "Mutah University, Karak, Jordan"
     orcid: "https://orcid.org/0000-0002-7146-3905"
-version: 1.0.0
+version: 1.0.1
 date-released: 2026-10-17
 repository-code: "https://github.com/saed-alqaraleh/absa-robustness-interference"
-url: "https://github.com/saed-alqaraleh/absa-robustness-interference/releases/tag/v1.0.0"
+url: "https://github.com/saed-alqaraleh/absa-robustness-interference/releases/tag/v1.0.1"
 keywords:
   - aspect-based sentiment analysis
   - robustness transfer
