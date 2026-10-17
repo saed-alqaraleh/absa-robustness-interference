@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+message: "Please cite the accompanying manuscript and, when available, its archived software release."
+title: "One-Sided Data Augmentation Pits Sensitivity against Invariance in Aspect-Based Sentiment Analysis"
+type: software
+authors:
+  - family-names: Alqaraleh
+    given-names: Saed
+repository-code: "https://github.com/saed-alqaraleh/absa-robustness-interference"
