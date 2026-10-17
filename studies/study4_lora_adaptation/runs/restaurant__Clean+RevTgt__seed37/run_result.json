@@ -1,0 +1,59 @@
+{
+  "J_SI": 0.8040540540540541,
+  "R_mean": 0.8757011761001122,
+  "W": 0.8687943262411347,
+  "accuracy": {
+    "AddDiff": 0.8776785714285714,
+    "Clean": 0.9017857142857143,
+    "RevNon": 0.8806306306306306,
+    "RevTgt": 0.8687943262411347
+  },
+  "best_dev_accuracy": 0.7733333333333333,
+  "best_epoch": 1,
+  "condition": "Clean+RevTgt",
+  "domain": "restaurant",
+  "eval_batch_used": 32,
+  "eval_seconds": 45.5,
+  "gpu": "NVIDIA A100-SXM4-40GB",
+  "history": [
+    {
+      "dev_accuracy": 0.7733333333333333,
+      "epoch": 1,
+      "seconds": 333.3,
+      "train_loss": 0.531995573432491
+    },
+    {
+      "dev_accuracy": 0.7666666666666667,
+      "epoch": 2,
+      "seconds": 337.3,
+      "train_loss": 0.22290082635288988
+    }
+  ],
+  "model": "Qwen/Qwen3-8B",
+  "n": {
+    "AddDiff": 1120,
+    "Clean": 1120,
+    "RevNon": 444,
+    "RevTgt": 846
+  },
+  "n_J": 444,
+  "resolved_commit": null,
+  "revision": "b968826d9c46dd6066d109eabc6255188de91218",
+  "seed": 37,
+  "signature": "1aa485f0750695eb5e5af338adf01381e902bf86bc51ff9c05a3264d91840087",
+  "total_seconds": 733.9,
+  "train_label_counts": {
+    "negative": 1545,
+    "neutral": 607,
+    "positive": 2303
+  },
+  "train_rows": 4455,
+  "train_seconds": 670.6,
+  "trainable_parameters": 43646976,
+  "versions": {
+    "accelerate": "1.15.0",
+    "peft": "0.21.2",
+    "torch": "2.11.0+cu130",
+    "transformers": "5.20.0"
+  }
+}
