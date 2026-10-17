@@ -1,0 +1,47 @@
+{
+  "accuracy": {
+    "AddDiff": 0.774294670846395,
+    "Clean": 0.7852664576802508,
+    "RevNon": 0.8222222222222222,
+    "RevTgt": 0.6866952789699571
+  },
+  "batch_size": 64,
+  "condition": "Triplet",
+  "csv_sha256": "3fcf19a8c8fcec90bf7e597786b987ae902bf1016e7844df6d43a7df08bf71d5",
+  "domain": "laptop",
+  "dtype": "torch.bfloat16",
+  "fallback_items": 0,
+  "label_token_ids": {
+    "negative": [
+      7855,
+      12933
+    ],
+    "neutral": [
+      3915,
+      14982
+    ],
+    "positive": [
+      6046,
+      8970
+    ]
+  },
+  "max_items": null,
+  "model": "mistralai/Mistral-7B-Instruct-v0.3",
+  "n": {
+    "AddDiff": 638,
+    "Clean": 638,
+    "RevNon": 135,
+    "RevTgt": 466
+  },
+  "prefix_cache": true,
+  "seconds": 8.2,
+  "seed": 73,
+  "signature": {
+    "demonstrations_sha256": "54fc889c2d4f15f15b3c930a648ce9a228f12fcb5823662cb2a21d59db840879",
+    "instruction_sha256": "71518ebbb43723c272554eb780d5f928ffc9ac08dc35f35fda2f805449a45050",
+    "k": 6,
+    "max_items": null,
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "scoring_version": "label-first-token-logsumexp/v1"
+  }
+}

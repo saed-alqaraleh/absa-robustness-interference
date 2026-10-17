@@ -1,0 +1,47 @@
+{
+  "accuracy": {
+    "AddDiff": 0.8169642857142857,
+    "Clean": 0.8258928571428571,
+    "RevNon": 0.8220720720720721,
+    "RevTgt": 0.7328605200945626
+  },
+  "batch_size": 64,
+  "condition": "Mixed",
+  "csv_sha256": "8cd2a94396c6330de331da96142971787ddb190e9a49fc52c04bc4d54baed26b",
+  "domain": "restaurant",
+  "dtype": "torch.bfloat16",
+  "fallback_items": 0,
+  "label_token_ids": {
+    "negative": [
+      7855,
+      12933
+    ],
+    "neutral": [
+      3915,
+      14982
+    ],
+    "positive": [
+      6046,
+      8970
+    ]
+  },
+  "max_items": null,
+  "model": "mistralai/Mistral-7B-Instruct-v0.3",
+  "n": {
+    "AddDiff": 1120,
+    "Clean": 1120,
+    "RevNon": 444,
+    "RevTgt": 846
+  },
+  "prefix_cache": true,
+  "seconds": 16.7,
+  "seed": 13,
+  "signature": {
+    "demonstrations_sha256": "54fc889c2d4f15f15b3c930a648ce9a228f12fcb5823662cb2a21d59db840879",
+    "instruction_sha256": "71518ebbb43723c272554eb780d5f928ffc9ac08dc35f35fda2f805449a45050",
+    "k": 6,
+    "max_items": null,
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "scoring_version": "label-first-token-logsumexp/v1"
+  }
+}
