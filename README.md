@@ -48,7 +48,7 @@ The saved-result checks do not establish that independently retraining pretraine
 
 ## Release and citation
 
-The initial verified research package is published as [version 1.0.1](https://github.com/saed-alqaraleh/absa-robustness-interference/releases/tag/v1.0.1) (17 October 2026). The release includes the four-study experimental archive, machine-readable results, supplementary Tables S1–S16, and verification scripts.
+Version 1.0.1 provides the verified research package with updated scholarly citation metadata: [release archive](https://github.com/saed-alqaraleh/absa-robustness-interference/releases/tag/v1.0.1) (17 October 2026). The release includes the four-study experimental archive, machine-readable results, supplementary Tables S1–S16, and verification scripts.
 
 **Cite the research software and supplementary evidence as:**
 
