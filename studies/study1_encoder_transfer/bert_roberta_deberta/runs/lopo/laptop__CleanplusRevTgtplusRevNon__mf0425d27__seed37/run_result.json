@@ -1,0 +1,52 @@
+{
+  "eval_summary": {
+    "AddDiff": {
+      "accuracy": 0.7460815047021944,
+      "macro_f1": 0.7037089909412514
+    },
+    "Clean": {
+      "accuracy": 0.7978056426332288,
+      "macro_f1": 0.7603024326101249
+    },
+    "RevNon": {
+      "accuracy": 0.8592592592592593,
+      "macro_f1": 0.7158119658119658
+    },
+    "RevTgt": {
+      "accuracy": 0.7124463519313304,
+      "macro_f1": 0.5794854872888352
+    }
+  },
+  "hyperparameters": {
+    "bf16": false,
+    "early_stopping_patience": 2,
+    "epochs": 8.0,
+    "eval_batch_size": 32,
+    "fp16": true,
+    "learning_rate": 2e-05,
+    "max_length": 128,
+    "train_batch_size": 16,
+    "warmup_ratio": 0.1,
+    "weight_decay": 0.01
+  },
+  "model_name": "FacebookAI/roberta-base",
+  "model_revision": "e2da8e2f811d1448a5b465c236feacd80ffbac7b",
+  "pair_order": "sentence_first",
+  "prediction_files": {
+    "AddDiff": "predictions_AddDiff.csv",
+    "Clean": "predictions_Clean.csv",
+    "RevNon": "predictions_RevNon.csv",
+    "RevTgt": "predictions_RevTgt.csv"
+  },
+  "run_signature": "ccb72827684317b3d0b395761616b53c9bfe7bffca94d4962f9391142a7b4b40",
+  "seed": 37,
+  "train_runtime_seconds": 79.16736149787903,
+  "trainer_metrics": {
+    "epoch": 6.0,
+    "total_flos": 440513528483952.0,
+    "train_loss": 0.4584395695370411,
+    "train_runtime": 78.555,
+    "train_samples_per_second": 262.848,
+    "train_steps_per_second": 16.498
+  }
+}

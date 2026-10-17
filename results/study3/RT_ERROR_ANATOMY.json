@@ -1,0 +1,360 @@
+{
+  "by_domain": {
+    "laptop": {
+      "rt_items_with_original": 1.0,
+      "systems": {
+        "Mistral-7B-Instruct-v0.3 [Clean]": {
+          "RevNon": {
+            "accuracy": 80.98765432098766,
+            "errors": 77,
+            "neutral": 37.66233766233766,
+            "other": 62.33766233766234,
+            "persist": 0.0
+          },
+          "RevTgt": {
+            "accuracy": 66.38054363376251,
+            "errors": 470,
+            "neutral": 32.5531914893617,
+            "other": 22.127659574468087,
+            "persist": 45.319148936170215
+          }
+        },
+        "Mistral-7B-Instruct-v0.3 [ZS]": {
+          "RevNon": {
+            "accuracy": 82.22222222222221,
+            "errors": 24,
+            "neutral": 58.333333333333336,
+            "other": 41.666666666666664,
+            "persist": 0.0
+          },
+          "RevTgt": {
+            "accuracy": 66.7381974248927,
+            "errors": 155,
+            "neutral": 36.774193548387096,
+            "other": 20.64516129032258,
+            "persist": 42.58064516129032
+          }
+        },
+        "Qwen2.5-7B-Instruct [Clean]": {
+          "RevNon": {
+            "accuracy": 83.20987654320989,
+            "errors": 68,
+            "neutral": 25.0,
+            "other": 75.0,
+            "persist": 0.0
+          },
+          "RevTgt": {
+            "accuracy": 72.96137339055794,
+            "errors": 378,
+            "neutral": 26.984126984126984,
+            "other": 28.306878306878307,
+            "persist": 44.70899470899471
+          }
+        },
+        "Qwen2.5-7B-Instruct [ZS]": {
+          "RevNon": {
+            "accuracy": 84.44444444444444,
+            "errors": 21,
+            "neutral": 19.047619047619047,
+            "other": 80.95238095238095,
+            "persist": 0.0
+          },
+          "RevTgt": {
+            "accuracy": 71.67381974248927,
+            "errors": 132,
+            "neutral": 31.818181818181817,
+            "other": 30.303030303030305,
+            "persist": 37.878787878787875
+          }
+        },
+        "RoBERTa-ft [CleanMatched]": {
+          "RevNon": {
+            "accuracy": 83.9506172839506,
+            "errors": 65,
+            "neutral": 10.76923076923077,
+            "other": 89.23076923076923,
+            "persist": 0.0
+          },
+          "RevTgt": {
+            "accuracy": 61.37339055793991,
+            "errors": 540,
+            "neutral": 19.62962962962963,
+            "other": 20.925925925925927,
+            "persist": 59.44444444444444
+          }
+        },
+        "RoBERTa-ft [Mixed]": {
+          "RevNon": {
+            "accuracy": 88.64197530864197,
+            "errors": 46,
+            "neutral": 13.043478260869565,
+            "other": 86.95652173913044,
+            "persist": 0.0
+          },
+          "RevTgt": {
+            "accuracy": 64.73533619456366,
+            "errors": 493,
+            "neutral": 17.849898580121703,
+            "other": 24.137931034482758,
+            "persist": 58.012170385395535
+          }
+        },
+        "RoBERTa-ft [Paired]": {
+          "RevNon": {
+            "accuracy": 88.14814814814815,
+            "errors": 48,
+            "neutral": 20.833333333333332,
+            "other": 79.16666666666667,
+            "persist": 0.0
+          },
+          "RevTgt": {
+            "accuracy": 65.73676680972818,
+            "errors": 479,
+            "neutral": 19.832985386221296,
+            "other": 23.38204592901879,
+            "persist": 56.78496868475992
+          }
+        }
+      }
+    },
+    "restaurant": {
+      "rt_items_with_original": 1.0,
+      "systems": {
+        "Mistral-7B-Instruct-v0.3 [Clean]": {
+          "RevNon": {
+            "accuracy": 76.50150150150151,
+            "errors": 313,
+            "neutral": 44.72843450479233,
+            "other": 55.27156549520767,
+            "persist": 0.0
+          },
+          "RevTgt": {
+            "accuracy": 70.2915681639086,
+            "errors": 754,
+            "neutral": 40.98143236074271,
+            "other": 14.058355437665783,
+            "persist": 44.96021220159151
+          }
+        },
+        "Mistral-7B-Instruct-v0.3 [ZS]": {
+          "RevNon": {
+            "accuracy": 81.75675675675676,
+            "errors": 81,
+            "neutral": 50.617283950617285,
+            "other": 49.382716049382715,
+            "persist": 0.0
+          },
+          "RevTgt": {
+            "accuracy": 73.28605200945626,
+            "errors": 226,
+            "neutral": 37.610619469026545,
+            "other": 16.8141592920354,
+            "persist": 45.575221238938056
+          }
+        },
+        "Qwen2.5-7B-Instruct [Clean]": {
+          "RevNon": {
+            "accuracy": 82.58258258258259,
+            "errors": 232,
+            "neutral": 35.775862068965516,
+            "other": 64.22413793103448,
+            "persist": 0.0
+          },
+          "RevTgt": {
+            "accuracy": 75.41371158392435,
+            "errors": 624,
+            "neutral": 24.67948717948718,
+            "other": 16.666666666666668,
+            "persist": 58.65384615384615
+          }
+        },
+        "Qwen2.5-7B-Instruct [ZS]": {
+          "RevNon": {
+            "accuracy": 84.23423423423424,
+            "errors": 70,
+            "neutral": 34.285714285714285,
+            "other": 65.71428571428571,
+            "persist": 0.0
+          },
+          "RevTgt": {
+            "accuracy": 75.05910165484634,
+            "errors": 211,
+            "neutral": 29.85781990521327,
+            "other": 18.48341232227488,
+            "persist": 51.65876777251185
+          }
+        },
+        "RoBERTa-ft [CleanMatched]": {
+          "RevNon": {
+            "accuracy": 85.06006006006007,
+            "errors": 199,
+            "neutral": 13.06532663316583,
+            "other": 86.93467336683418,
+            "persist": 0.0
+          },
+          "RevTgt": {
+            "accuracy": 70.37037037037037,
+            "errors": 752,
+            "neutral": 13.297872340425531,
+            "other": 13.696808510638299,
+            "persist": 73.00531914893617
+          }
+        },
+        "RoBERTa-ft [Mixed]": {
+          "RevNon": {
+            "accuracy": 87.76276276276276,
+            "errors": 163,
+            "neutral": 11.042944785276074,
+            "other": 88.95705521472392,
+            "persist": 0.0
+          },
+          "RevTgt": {
+            "accuracy": 74.94089834515367,
+            "errors": 636,
+            "neutral": 11.79245283018868,
+            "other": 17.29559748427673,
+            "persist": 70.9119496855346
+          }
+        },
+        "RoBERTa-ft [Paired]": {
+          "RevNon": {
+            "accuracy": 90.16516516516516,
+            "errors": 131,
+            "neutral": 4.580152671755725,
+            "other": 95.41984732824427,
+            "persist": 0.0
+          },
+          "RevTgt": {
+            "accuracy": 77.2655634357762,
+            "errors": 577,
+            "neutral": 2.7729636048526864,
+            "other": 21.317157712305026,
+            "persist": 75.90987868284229
+          }
+        }
+      }
+    }
+  },
+  "pooled": {
+    "Mistral-7B-Instruct-v0.3 [Clean] | RevNon": {
+      "accuracy": 78.74457791124459,
+      "errors": 195.0,
+      "neutral": 41.195386083565,
+      "other": 58.804613916435,
+      "persist": 0.0
+    },
+    "Mistral-7B-Instruct-v0.3 [Clean] | RevTgt": {
+      "accuracy": 68.33605589883555,
+      "errors": 612.0,
+      "neutral": 36.767311925052205,
+      "other": 18.093007506066936,
+      "persist": 45.13968056888086
+    },
+    "Mistral-7B-Instruct-v0.3 [ZS] | RevNon": {
+      "accuracy": 81.98948948948949,
+      "errors": 52.5,
+      "neutral": 54.47530864197531,
+      "other": 45.52469135802469,
+      "persist": 0.0
+    },
+    "Mistral-7B-Instruct-v0.3 [ZS] | RevTgt": {
+      "accuracy": 70.01212471717449,
+      "errors": 190.5,
+      "neutral": 37.192406508706824,
+      "other": 18.729660291178988,
+      "persist": 44.07793320011419
+    },
+    "Qwen2.5-7B-Instruct [Clean] | RevNon": {
+      "accuracy": 82.89622956289624,
+      "errors": 150.0,
+      "neutral": 30.387931034482758,
+      "other": 69.61206896551724,
+      "persist": 0.0
+    },
+    "Qwen2.5-7B-Instruct [Clean] | RevTgt": {
+      "accuracy": 74.18754248724115,
+      "errors": 501.0,
+      "neutral": 25.83180708180708,
+      "other": 22.486772486772487,
+      "persist": 51.681420431420435
+    },
+    "Qwen2.5-7B-Instruct [ZS] | RevNon": {
+      "accuracy": 84.33933933933935,
+      "errors": 45.5,
+      "neutral": 26.666666666666664,
+      "other": 73.33333333333333,
+      "persist": 0.0
+    },
+    "Qwen2.5-7B-Instruct [ZS] | RevTgt": {
+      "accuracy": 73.36646069866781,
+      "errors": 171.5,
+      "neutral": 30.838000861697545,
+      "other": 24.393221312652592,
+      "persist": 44.76877782564986
+    },
+    "RoBERTa-ft [CleanMatched] | RevNon": {
+      "accuracy": 84.50533867200534,
+      "errors": 132.0,
+      "neutral": 11.917278701198299,
+      "other": 88.0827212988017,
+      "persist": 0.0
+    },
+    "RoBERTa-ft [CleanMatched] | RevTgt": {
+      "accuracy": 65.87188046415514,
+      "errors": 646.0,
+      "neutral": 16.46375098502758,
+      "other": 17.311367218282115,
+      "persist": 66.22488179669031
+    },
+    "RoBERTa-ft [Mixed] | RevNon": {
+      "accuracy": 88.20236903570236,
+      "errors": 104.5,
+      "neutral": 12.04321152307282,
+      "other": 87.95678847692719,
+      "persist": 0.0
+    },
+    "RoBERTa-ft [Mixed] | RevTgt": {
+      "accuracy": 69.83811726985866,
+      "errors": 564.5,
+      "neutral": 14.821175705155191,
+      "other": 20.716764259379744,
+      "persist": 64.46206003546507
+    },
+    "RoBERTa-ft [Paired] | RevNon": {
+      "accuracy": 89.15665665665665,
+      "errors": 89.5,
+      "neutral": 12.706743002544528,
+      "other": 87.29325699745547,
+      "persist": 0.0
+    },
+    "RoBERTa-ft [Paired] | RevTgt": {
+      "accuracy": 71.50116512275218,
+      "errors": 528.0,
+      "neutral": 11.302974495536992,
+      "other": 22.34960182066191,
+      "persist": 66.34742368380111
+    }
+  },
+  "universal_failures": {
+    "laptop/RevNon": {
+      "n": 9,
+      "of": 135,
+      "share": 6.666666666666667
+    },
+    "laptop/RevTgt": {
+      "n": 61,
+      "of": 466,
+      "share": 13.090128755364807
+    },
+    "restaurant/RevNon": {
+      "n": 26,
+      "of": 444,
+      "share": 5.8558558558558556
+    },
+    "restaurant/RevTgt": {
+      "n": 67,
+      "of": 846,
+      "share": 7.919621749408983
+    }
+  }
+}

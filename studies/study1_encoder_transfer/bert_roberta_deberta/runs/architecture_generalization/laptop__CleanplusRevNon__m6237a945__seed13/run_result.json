@@ -1,0 +1,52 @@
+{
+  "eval_summary": {
+    "AddDiff": {
+      "accuracy": 0.49059561128526646,
+      "macro_f1": 0.4723363080958321
+    },
+    "Clean": {
+      "accuracy": 0.7460815047021944,
+      "macro_f1": 0.7059677706910842
+    },
+    "RevNon": {
+      "accuracy": 0.7555555555555555,
+      "macro_f1": 0.5736622198346614
+    },
+    "RevTgt": {
+      "accuracy": 0.38412017167381973,
+      "macro_f1": 0.33897995625860866
+    }
+  },
+  "hyperparameters": {
+    "bf16": false,
+    "early_stopping_patience": 2,
+    "epochs": 8.0,
+    "eval_batch_size": 32,
+    "fp16": true,
+    "learning_rate": 2e-05,
+    "max_length": 128,
+    "train_batch_size": 16,
+    "warmup_ratio": 0.1,
+    "weight_decay": 0.01
+  },
+  "model_name": "google-bert/bert-base-uncased",
+  "model_revision": "86b5e0934494bd15c9632b12f734a8a67f723594",
+  "pair_order": "sentence_first",
+  "prediction_files": {
+    "AddDiff": "predictions_AddDiff.csv",
+    "Clean": "predictions_Clean.csv",
+    "RevNon": "predictions_RevNon.csv",
+    "RevTgt": "predictions_RevTgt.csv"
+  },
+  "run_signature": "2f5f91c6c2e69b5bde3dcbab971d7d6dff27597ba33dd37370d2cdbdd1484f9a",
+  "seed": 13,
+  "train_runtime_seconds": 44.26210045814514,
+  "trainer_metrics": {
+    "epoch": 5.0,
+    "total_flos": 365892610421394.0,
+    "train_loss": 0.4502487188504066,
+    "train_runtime": 43.8277,
+    "train_samples_per_second": 471.117,
+    "train_steps_per_second": 29.57
+  }
+}

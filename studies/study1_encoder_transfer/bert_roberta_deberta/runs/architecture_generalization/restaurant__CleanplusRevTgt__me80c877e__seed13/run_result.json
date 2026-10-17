@@ -1,0 +1,52 @@
+{
+  "eval_summary": {
+    "AddDiff": {
+      "accuracy": 0.7955357142857142,
+      "macro_f1": 0.6297050717320121
+    },
+    "Clean": {
+      "accuracy": 0.8366071428571429,
+      "macro_f1": 0.7195137985994228
+    },
+    "RevNon": {
+      "accuracy": 0.6081081081081081,
+      "macro_f1": 0.43965083964049195
+    },
+    "RevTgt": {
+      "accuracy": 0.8486997635933806,
+      "macro_f1": 0.5796797134103681
+    }
+  },
+  "hyperparameters": {
+    "bf16": false,
+    "early_stopping_patience": 2,
+    "epochs": 8.0,
+    "eval_batch_size": 32,
+    "fp16": true,
+    "learning_rate": 2e-05,
+    "max_length": 128,
+    "train_batch_size": 16,
+    "warmup_ratio": 0.1,
+    "weight_decay": 0.01
+  },
+  "model_name": "microsoft/deberta-v3-base",
+  "model_revision": "8ccc9b6f36199bec6961081d44eb72fb3f7353f3",
+  "pair_order": "sentence_first",
+  "prediction_files": {
+    "AddDiff": "predictions_AddDiff.csv",
+    "Clean": "predictions_Clean.csv",
+    "RevNon": "predictions_RevNon.csv",
+    "RevTgt": "predictions_RevTgt.csv"
+  },
+  "run_signature": "e664d91f2aeffbf3d6a3ad68a8ff575732a231189ac261cafc0fe503c926dae7",
+  "seed": 13,
+  "train_runtime_seconds": 179.81153988838196,
+  "trainer_metrics": {
+    "epoch": 7.0,
+    "total_flos": 750211988864130.0,
+    "train_loss": 0.3216916876332429,
+    "train_runtime": 179.2587,
+    "train_samples_per_second": 198.819,
+    "train_steps_per_second": 12.451
+  }
+}

@@ -1,0 +1,42 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "absa-cross-perturbation-transfer"
+version = "0.1.0"
+description = "Controlled cross-perturbation robustness transfer in ABSA"
+requires-python = ">=3.10"
+dependencies = [
+  "numpy>=1.26",
+  "pandas>=2.1",
+  "pyarrow>=14",
+  "scikit-learn>=1.4",
+  "scipy>=1.11",
+  "PyYAML>=6",
+  "nltk>=3.8",
+  "tqdm>=4.66",
+  "torch>=2.2",
+  "transformers>=4.45,<6",
+  "accelerate>=0.34",
+  "sentencepiece>=0.2",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8", "ruff>=0.6"]
+
+[project.scripts]
+absa-xfer = "absa_xfer.cli:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+
+[tool.ruff]
+line-length = 110

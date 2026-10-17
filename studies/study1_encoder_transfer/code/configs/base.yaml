@@ -1,0 +1,65 @@
+project:
+  name: ABSA_CrossPerturbation_Transfer
+  root: ./data
+  protocol_version: "v1.0"
+
+data:
+  domains: [restaurant, laptop]
+  drop_conflict: true
+  exact_xu_split_manifest: null
+  fallback_dev_aspect_instances: 150
+  fallback_split_seed: 13
+  semeval:
+    restaurant_train_xml: null
+    restaurant_test_xml: null
+    laptop_train_xml: null
+    laptop_test_xml: null
+  towe:
+    restaurant_dir: data_raw/external_repos/TOWE/data/14res
+    laptop_dir: data_raw/external_repos/TOWE/data/14lap
+  arts_repo: data_raw/external_repos/ARTS_TestSet
+
+transformations:
+  implementation_name: "ARTS-inspired deterministic v1"
+  neutral_policy: "exclude_until_legacy_behavior_verified"
+  opinion_source: "TOWE"
+  adddiff_expression_mode: "train_only_minimal_cover"
+  adddiff_k_min: 1
+  adddiff_k_max: 3
+  transformation_seed: 20260913
+
+source_control:
+  primary: "common_eligibility_pool"
+  budget: null
+  selection_seed: 20260913
+  strata: [domain, label, aspect_count_bin, sentence_length_bin]
+
+models:
+  minimal_decisive: "FacebookAI/roberta-base"
+  final:
+    - "google-bert/bert-base-uncased"
+    - "FacebookAI/roberta-base"
+    - "microsoft/deberta-v3-base"
+  pair_order: "sentence_first"
+  max_length: 128
+
+training:
+  learning_rate: 2.0e-5
+  train_batch_size: 16
+  eval_batch_size: 32
+  epochs: 8
+  weight_decay: 0.01
+  warmup_ratio: 0.1
+  early_stopping_patience: 2
+  fp16: true
+  bf16: false
+  logging_steps: 20
+  seeds_minimal: [13, 37, 73]
+  seeds_final: [13, 37, 73, 101, 137]
+
+statistics:
+  primary_metric: accuracy
+  secondary_metric: macro_f1
+  bootstrap_clusters: "original_sentence"
+  bootstrap_samples: 5000
+  bootstrap_seed: 13

@@ -1,0 +1,2352 @@
+{
+  "bootstrap_seed": 20261007,
+  "clusters": {
+    "laptop": 411,
+    "restaurant": 600
+  },
+  "contrasts": {
+    "Qwen__Qwen2.5-7B-Instruct": {
+      "CTX_J_Clean_minus_ZS": {
+        "cells": 6,
+        "cells_negative": 5,
+        "cells_positive": 1,
+        "ci95": [
+          -4.0135665776619645,
+          0.8695392013904331
+        ],
+        "estimate": -1.513179846513168,
+        "family": "CTX",
+        "p_two_sided": 0.22,
+        "predicted_sign": 0
+      },
+      "CTX_W_Clean_minus_ZS": {
+        "cells": 6,
+        "cells_negative": 1,
+        "cells_positive": 5,
+        "ci95": [
+          -0.4849397558022687,
+          2.092141665261161
+        ],
+        "estimate": 0.8210817885733519,
+        "family": "CTX",
+        "p_two_sided": 0.2266,
+        "predicted_sign": 0
+      },
+      "H1_AddDiff_minus_Clean_ZS": {
+        "cells": 2,
+        "cells_negative": 2,
+        "cells_positive": 0,
+        "ci95": [
+          -3.953931842701373,
+          -1.0969740967665307
+        ],
+        "estimate": -2.5039184952978104,
+        "family": "H1d",
+        "p_two_sided": 0.0006,
+        "predicted_sign": 0
+      },
+      "H1_RevNon_minus_Clean_ZS": {
+        "cells": 2,
+        "cells_negative": 1,
+        "cells_positive": 1,
+        "ci95": [
+          -3.754404287503579,
+          4.0488697081411145
+        ],
+        "estimate": 0.18223566714947026,
+        "family": "H1d",
+        "p_two_sided": 0.9248,
+        "predicted_sign": 0
+      },
+      "H1_RevTgt_minus_Clean_ZS": {
+        "cells": 2,
+        "cells_negative": 2,
+        "cells_positive": 0,
+        "ci95": [
+          -13.847772895365184,
+          -7.761064179708377
+        ],
+        "estimate": -10.790642973522083,
+        "family": "H1d",
+        "p_two_sided": 0.0,
+        "predicted_sign": 0
+      },
+      "H1_RevTgt_minus_RevNon_ZS": {
+        "cells": 2,
+        "cells_negative": 2,
+        "cells_positive": 0,
+        "ci95": [
+          -15.286445519845463,
+          -6.595630954683397
+        ],
+        "estimate": -10.972878640671553,
+        "family": "H1",
+        "p_holm": 0.0,
+        "p_two_sided": 0.0,
+        "predicted_sign": 0
+      },
+      "H1_W_minus_Clean_ZS": {
+        "cells": 2,
+        "cells_negative": 2,
+        "cells_positive": 0,
+        "ci95": [
+          -13.847772895365184,
+          -7.7680043825363585
+        ],
+        "estimate": -10.790642973522083,
+        "family": "H1",
+        "p_holm": 0.0,
+        "p_two_sided": 0.0,
+        "predicted_sign": -1
+      },
+      "H2_RN_acc_RNdemos_minus_Clean": {
+        "cells": 6,
+        "cells_negative": 0,
+        "cells_positive": 5,
+        "ci95": [
+          0.12919064173259684,
+          2.1384750217652417
+        ],
+        "estimate": 1.0944277610944226,
+        "family": "H2d",
+        "p_two_sided": 0.0246,
+        "predicted_sign": 0
+      },
+      "H2_RN_acc_RTdemos_minus_Clean": {
+        "cells": 6,
+        "cells_negative": 3,
+        "cells_positive": 2,
+        "ci95": [
+          -0.8277097703625568,
+          0.9463824614844714
+        ],
+        "estimate": 0.06923590256921841,
+        "family": "H2",
+        "p_holm": 0.8616,
+        "p_two_sided": 0.8616,
+        "predicted_sign": -1
+      },
+      "H2_RT_acc_RNdemos_minus_Clean": {
+        "cells": 6,
+        "cells_negative": 1,
+        "cells_positive": 5,
+        "ci95": [
+          0.5530346723060123,
+          2.403664444127456
+        ],
+        "estimate": 1.4608846815951182,
+        "family": "H2",
+        "p_holm": 0.0044,
+        "p_two_sided": 0.0022,
+        "predicted_sign": -1
+      },
+      "H2_RT_acc_RTdemos_minus_Clean": {
+        "cells": 6,
+        "cells_negative": 0,
+        "cells_positive": 6,
+        "ci95": [
+          0.37196991797976015,
+          2.1306664143909155
+        ],
+        "estimate": 1.2441786138252127,
+        "family": "H2d",
+        "p_two_sided": 0.0034,
+        "predicted_sign": 0
+      },
+      "H2_W_RNdemos_minus_Clean": {
+        "cells": 6,
+        "cells_negative": 1,
+        "cells_positive": 5,
+        "ci95": [
+          0.5523715384980651,
+          2.3905542021897612
+        ],
+        "estimate": 1.4608846815951182,
+        "family": "H2d",
+        "p_two_sided": 0.0018,
+        "predicted_sign": 0
+      },
+      "H2_W_RTdemos_minus_Clean": {
+        "cells": 6,
+        "cells_negative": 0,
+        "cells_positive": 6,
+        "ci95": [
+          0.348312312011333,
+          2.1266213295620533
+        ],
+        "estimate": 1.2441786138252127,
+        "family": "H2d",
+        "p_two_sided": 0.0066,
+        "predicted_sign": 0
+      },
+      "H3_J_Mixed_minus_Clean": {
+        "cells": 6,
+        "cells_negative": 1,
+        "cells_positive": 4,
+        "ci95": [
+          0.6065799308897457,
+          3.012269143980556
+        ],
+        "estimate": 1.8126459793126344,
+        "family": "H3",
+        "p_holm": 0.009600000000000001,
+        "p_two_sided": 0.0032,
+        "predicted_sign": 1
+      },
+      "H3_J_Triplet_minus_Clean": {
+        "cells": 6,
+        "cells_negative": 1,
+        "cells_positive": 3,
+        "ci95": [
+          0.30306964445011464,
+          3.3463802249340713
+        ],
+        "estimate": 1.7909576242909537,
+        "family": "H3",
+        "p_holm": 0.0308,
+        "p_two_sided": 0.0154,
+        "predicted_sign": 1
+      },
+      "H3_J_Triplet_minus_Mixed": {
+        "cells": 6,
+        "cells_negative": 2,
+        "cells_positive": 3,
+        "ci95": [
+          -1.2541156313589332,
+          1.2408006291878002
+        ],
+        "estimate": -0.02168835502168065,
+        "family": "H3d",
+        "p_two_sided": 0.992,
+        "predicted_sign": 0
+      },
+      "H3_W_Mixed_minus_Clean": {
+        "cells": 6,
+        "cells_negative": 1,
+        "cells_positive": 5,
+        "ci95": [
+          0.5732074924538558,
+          2.2598198227835153
+        ],
+        "estimate": 1.401783026748788,
+        "family": "H3",
+        "p_holm": 0.0032,
+        "p_two_sided": 0.0008,
+        "predicted_sign": 1
+      },
+      "H3_W_Triplet_minus_Clean": {
+        "cells": 6,
+        "cells_negative": 2,
+        "cells_positive": 4,
+        "ci95": [
+          0.21923845071557652,
+          2.170895765973526
+        ],
+        "estimate": 1.2135708898561575,
+        "family": "H3",
+        "p_holm": 0.0308,
+        "p_two_sided": 0.0168,
+        "predicted_sign": 1
+      },
+      "H3_W_Triplet_minus_Mixed": {
+        "cells": 6,
+        "cells_negative": 2,
+        "cells_positive": 4,
+        "ci95": [
+          -1.0260363979409877,
+          0.6237419978767756
+        ],
+        "estimate": -0.1882121368926306,
+        "family": "H3d",
+        "p_two_sided": 0.6324,
+        "predicted_sign": 0
+      }
+    },
+    "mistralai__Mistral-7B-Instruct-v0.3": {
+      "CTX_J_Clean_minus_ZS": {
+        "cells": 6,
+        "cells_negative": 6,
+        "cells_positive": 0,
+        "ci95": [
+          -9.877338723352647,
+          -2.921201793420058
+        ],
+        "estimate": -6.372205538872201,
+        "family": "CTX",
+        "p_two_sided": 0.0,
+        "predicted_sign": 0
+      },
+      "CTX_W_Clean_minus_ZS": {
+        "cells": 6,
+        "cells_negative": 5,
+        "cells_positive": 1,
+        "ci95": [
+          -3.802102719189408,
+          0.28600006350094626
+        ],
+        "estimate": -1.6760688183389334,
+        "family": "CTX",
+        "p_two_sided": 0.0956,
+        "predicted_sign": 0
+      },
+      "H1_AddDiff_minus_Clean_ZS": {
+        "cells": 2,
+        "cells_negative": 1,
+        "cells_positive": 1,
+        "ci95": [
+          -1.827213978114702,
+          1.8196343934994577
+        ],
+        "estimate": -0.012875055978511796,
+        "family": "H1d",
+        "p_two_sided": 0.9938,
+        "predicted_sign": 0
+      },
+      "H1_RevNon_minus_Clean_ZS": {
+        "cells": 2,
+        "cells_negative": 1,
+        "cells_positive": 1,
+        "ci95": [
+          -3.6171786293020096,
+          4.518743144433656
+        ],
+        "estimate": 0.5803705911464618,
+        "family": "H1d",
+        "p_two_sided": 0.7732,
+        "predicted_sign": 0
+      },
+      "H1_RevTgt_minus_Clean_ZS": {
+        "cells": 2,
+        "cells_negative": 2,
+        "cells_positive": 0,
+        "ci95": [
+          -15.009991070234285,
+          -7.845167282277812
+        ],
+        "estimate": -11.396994181168552,
+        "family": "H1d",
+        "p_two_sided": 0.0,
+        "predicted_sign": 0
+      },
+      "H1_RevTgt_minus_RevNon_ZS": {
+        "cells": 2,
+        "cells_negative": 2,
+        "cells_positive": 0,
+        "ci95": [
+          -16.299802692957762,
+          -7.406142672390165
+        ],
+        "estimate": -11.977364772315013,
+        "family": "H1",
+        "p_holm": 0.0,
+        "p_two_sided": 0.0,
+        "predicted_sign": 0
+      },
+      "H1_W_minus_Clean_ZS": {
+        "cells": 2,
+        "cells_negative": 2,
+        "cells_positive": 0,
+        "ci95": [
+          -15.009991070234285,
+          -7.845167282277812
+        ],
+        "estimate": -11.396994181168552,
+        "family": "H1",
+        "p_holm": 0.0,
+        "p_two_sided": 0.0,
+        "predicted_sign": -1
+      },
+      "H2_RN_acc_RNdemos_minus_Clean": {
+        "cells": 6,
+        "cells_negative": 2,
+        "cells_positive": 4,
+        "ci95": [
+          0.2105311684932961,
+          3.9010510582477322
+        ],
+        "estimate": 2.1021021021020942,
+        "family": "H2d",
+        "p_two_sided": 0.0302,
+        "predicted_sign": 0
+      },
+      "H2_RN_acc_RTdemos_minus_Clean": {
+        "cells": 6,
+        "cells_negative": 3,
+        "cells_positive": 2,
+        "ci95": [
+          0.36071002951409065,
+          2.75919941889619
+        ],
+        "estimate": 1.5290290290290045,
+        "family": "H2",
+        "p_holm": 0.02,
+        "p_two_sided": 0.01,
+        "predicted_sign": -1
+      },
+      "H2_RT_acc_RNdemos_minus_Clean": {
+        "cells": 6,
+        "cells_negative": 1,
+        "cells_positive": 5,
+        "ci95": [
+          0.14805821055538113,
+          2.38264053189895
+        ],
+        "estimate": 1.2669230274928367,
+        "family": "H2",
+        "p_holm": 0.0254,
+        "p_two_sided": 0.0254,
+        "predicted_sign": -1
+      },
+      "H2_RT_acc_RTdemos_minus_Clean": {
+        "cells": 6,
+        "cells_negative": 0,
+        "cells_positive": 6,
+        "ci95": [
+          0.4370080696757647,
+          2.725327666919181
+        ],
+        "estimate": 1.5536379224626842,
+        "family": "H2d",
+        "p_two_sided": 0.007,
+        "predicted_sign": 0
+      },
+      "H2_W_RNdemos_minus_Clean": {
+        "cells": 6,
+        "cells_negative": 1,
+        "cells_positive": 5,
+        "ci95": [
+          0.19331539593113548,
+          2.438939965637892
+        ],
+        "estimate": 1.2669230274928367,
+        "family": "H2d",
+        "p_two_sided": 0.0212,
+        "predicted_sign": 0
+      },
+      "H2_W_RTdemos_minus_Clean": {
+        "cells": 6,
+        "cells_negative": 0,
+        "cells_positive": 6,
+        "ci95": [
+          0.46114548864449995,
+          2.7444001618960954
+        ],
+        "estimate": 1.5536379224626842,
+        "family": "H2d",
+        "p_two_sided": 0.0066,
+        "predicted_sign": 0
+      },
+      "H3_J_Mixed_minus_Clean": {
+        "cells": 6,
+        "cells_negative": 2,
+        "cells_positive": 4,
+        "ci95": [
+          2.1053647536264966,
+          5.506025453980904
+        ],
+        "estimate": 3.8013013013012937,
+        "family": "H3",
+        "p_holm": 0.0,
+        "p_two_sided": 0.0,
+        "predicted_sign": 1
+      },
+      "H3_J_Triplet_minus_Clean": {
+        "cells": 6,
+        "cells_negative": 1,
+        "cells_positive": 5,
+        "ci95": [
+          1.9323292165281536,
+          6.031054122566247
+        ],
+        "estimate": 3.9422756089422677,
+        "family": "H3",
+        "p_holm": 0.0,
+        "p_two_sided": 0.0,
+        "predicted_sign": 1
+      },
+      "H3_J_Triplet_minus_Mixed": {
+        "cells": 6,
+        "cells_negative": 2,
+        "cells_positive": 4,
+        "ci95": [
+          -1.6867774526473511,
+          2.052707640821022
+        ],
+        "estimate": 0.14097430764097396,
+        "family": "H3d",
+        "p_two_sided": 0.886,
+        "predicted_sign": 0
+      },
+      "H3_W_Mixed_minus_Clean": {
+        "cells": 6,
+        "cells_negative": 2,
+        "cells_positive": 4,
+        "ci95": [
+          1.2087391730201955,
+          3.497524655466643
+        ],
+        "estimate": 2.288307849443811,
+        "family": "H3",
+        "p_holm": 0.0,
+        "p_two_sided": 0.0,
+        "predicted_sign": 1
+      },
+      "H3_W_Triplet_minus_Clean": {
+        "cells": 6,
+        "cells_negative": 0,
+        "cells_positive": 6,
+        "ci95": [
+          1.509664260553804,
+          3.874890873555721
+        ],
+        "estimate": 2.629304951010724,
+        "family": "H3",
+        "p_holm": 0.0,
+        "p_two_sided": 0.0,
+        "predicted_sign": 1
+      },
+      "H3_W_Triplet_minus_Mixed": {
+        "cells": 6,
+        "cells_negative": 3,
+        "cells_positive": 3,
+        "ci95": [
+          -0.7463489583196942,
+          1.449972499101914
+        ],
+        "estimate": 0.3409971015669129,
+        "family": "H3d",
+        "p_two_sided": 0.539,
+        "predicted_sign": 0
+      }
+    },
+    "model_mean": {
+      "CTX_J_Clean_minus_ZS": {
+        "cells": 12,
+        "cells_negative": 11,
+        "cells_positive": 1,
+        "ci95": [
+          -6.170724348897246,
+          -1.8051099913876465
+        ],
+        "estimate": -3.942692692692681,
+        "family": "CTX",
+        "p_two_sided": 0.0,
+        "predicted_sign": 0
+      },
+      "CTX_W_Clean_minus_ZS": {
+        "cells": 12,
+        "cells_negative": 6,
+        "cells_positive": 6,
+        "ci95": [
+          -1.6948091418602493,
+          0.7684842984455924
+        ],
+        "estimate": -0.42749351488279785,
+        "family": "CTX",
+        "p_two_sided": 0.4588,
+        "predicted_sign": 0
+      },
+      "H1_AddDiff_minus_Clean_ZS": {
+        "cells": 4,
+        "cells_negative": 3,
+        "cells_positive": 1,
+        "ci95": [
+          -2.516143571251461,
+          -0.02853609415127766
+        ],
+        "estimate": -1.258396775638161,
+        "family": "H1d",
+        "p_two_sided": 0.0456,
+        "predicted_sign": 0
+      },
+      "H1_RevNon_minus_Clean_ZS": {
+        "cells": 4,
+        "cells_negative": 2,
+        "cells_positive": 2,
+        "ci95": [
+          -3.223165393735319,
+          3.843800769144931
+        ],
+        "estimate": 0.38130312914796605,
+        "family": "H1d",
+        "p_two_sided": 0.8212,
+        "predicted_sign": 0
+      },
+      "H1_RevTgt_minus_Clean_ZS": {
+        "cells": 4,
+        "cells_negative": 4,
+        "cells_positive": 0,
+        "ci95": [
+          -14.057620145238518,
+          -8.21745423632665
+        ],
+        "estimate": -11.093818577345317,
+        "family": "H1d",
+        "p_two_sided": 0.0,
+        "predicted_sign": 0
+      },
+      "H1_RevTgt_minus_RevNon_ZS": {
+        "cells": 4,
+        "cells_negative": 4,
+        "cells_positive": 0,
+        "ci95": [
+          -15.310459209933413,
+          -7.544562958967185
+        ],
+        "estimate": -11.475121706493283,
+        "family": "H1",
+        "p_holm": 0.0,
+        "p_two_sided": 0.0,
+        "predicted_sign": 0
+      },
+      "H1_W_minus_Clean_ZS": {
+        "cells": 4,
+        "cells_negative": 4,
+        "cells_positive": 0,
+        "ci95": [
+          -14.057620145238518,
+          -8.219086528513609
+        ],
+        "estimate": -11.093818577345317,
+        "family": "H1",
+        "p_holm": 0.0,
+        "p_two_sided": 0.0,
+        "predicted_sign": -1
+      },
+      "H2_RN_acc_RNdemos_minus_Clean": {
+        "cells": 12,
+        "cells_negative": 2,
+        "cells_positive": 9,
+        "ci95": [
+          0.4964323903271325,
+          2.683487924723476
+        ],
+        "estimate": 1.5982649315982513,
+        "family": "H2d",
+        "p_two_sided": 0.0062,
+        "predicted_sign": 0
+      },
+      "H2_RN_acc_RTdemos_minus_Clean": {
+        "cells": 12,
+        "cells_negative": 6,
+        "cells_positive": 4,
+        "ci95": [
+          0.040866103225193864,
+          1.6292908045086925
+        ],
+        "estimate": 0.7991324657991044,
+        "family": "H2",
+        "p_holm": 0.038,
+        "p_two_sided": 0.038,
+        "predicted_sign": -1
+      },
+      "H2_RT_acc_RNdemos_minus_Clean": {
+        "cells": 12,
+        "cells_negative": 2,
+        "cells_positive": 10,
+        "ci95": [
+          0.5864992199355265,
+          2.1452016970550636
+        ],
+        "estimate": 1.3639038545439917,
+        "family": "H2",
+        "p_holm": 0.0012,
+        "p_two_sided": 0.0006,
+        "predicted_sign": -1
+      },
+      "H2_RT_acc_RTdemos_minus_Clean": {
+        "cells": 12,
+        "cells_negative": 0,
+        "cells_positive": 12,
+        "ci95": [
+          0.61901091624444,
+          2.1896060326186286
+        ],
+        "estimate": 1.3989082681439555,
+        "family": "H2d",
+        "p_two_sided": 0.001,
+        "predicted_sign": 0
+      },
+      "H2_W_RNdemos_minus_Clean": {
+        "cells": 12,
+        "cells_negative": 2,
+        "cells_positive": 10,
+        "ci95": [
+          0.6034977077660681,
+          2.161949242488238
+        ],
+        "estimate": 1.3639038545439917,
+        "family": "H2d",
+        "p_two_sided": 0.0004,
+        "predicted_sign": 0
+      },
+      "H2_W_RTdemos_minus_Clean": {
+        "cells": 12,
+        "cells_negative": 0,
+        "cells_positive": 12,
+        "ci95": [
+          0.6294550342279844,
+          2.1896060326186286
+        ],
+        "estimate": 1.3989082681439555,
+        "family": "H2d",
+        "p_two_sided": 0.001,
+        "predicted_sign": 0
+      },
+      "H3_J_Mixed_minus_Clean": {
+        "cells": 12,
+        "cells_negative": 3,
+        "cells_positive": 8,
+        "ci95": [
+          1.6636560742545732,
+          3.907279213695769
+        ],
+        "estimate": 2.806973640306957,
+        "family": "H3",
+        "p_holm": 0.0,
+        "p_two_sided": 0.0,
+        "predicted_sign": 1
+      },
+      "H3_J_Triplet_minus_Clean": {
+        "cells": 12,
+        "cells_negative": 2,
+        "cells_positive": 8,
+        "ci95": [
+          1.5605419403385332,
+          4.244694496621962
+        ],
+        "estimate": 2.8666166166166036,
+        "family": "H3",
+        "p_holm": 0.0,
+        "p_two_sided": 0.0,
+        "predicted_sign": 1
+      },
+      "H3_J_Triplet_minus_Mixed": {
+        "cells": 12,
+        "cells_negative": 4,
+        "cells_positive": 7,
+        "ci95": [
+          -1.0878315125135924,
+          1.2550509470011888
+        ],
+        "estimate": 0.059642976309646656,
+        "family": "H3d",
+        "p_two_sided": 0.9266,
+        "predicted_sign": 0
+      },
+      "H3_W_Mixed_minus_Clean": {
+        "cells": 12,
+        "cells_negative": 3,
+        "cells_positive": 9,
+        "ci95": [
+          1.1329893939810625,
+          2.6005827256128504
+        ],
+        "estimate": 1.8450454380963066,
+        "family": "H3",
+        "p_holm": 0.0,
+        "p_two_sided": 0.0,
+        "predicted_sign": 1
+      },
+      "H3_W_Triplet_minus_Clean": {
+        "cells": 12,
+        "cells_negative": 2,
+        "cells_positive": 10,
+        "ci95": [
+          1.1513295712834695,
+          2.7400554266166623
+        ],
+        "estimate": 1.9214379204334477,
+        "family": "H3",
+        "p_holm": 0.0,
+        "p_two_sided": 0.0,
+        "predicted_sign": 1
+      },
+      "H3_W_Triplet_minus_Mixed": {
+        "cells": 12,
+        "cells_negative": 5,
+        "cells_positive": 7,
+        "ci95": [
+          -0.650808141688232,
+          0.771499025889616
+        ],
+        "estimate": 0.07639248233714113,
+        "family": "H3d",
+        "p_two_sided": 0.8324,
+        "predicted_sign": 0
+      }
+    }
+  },
+  "diagnostics": {
+    "Qwen__Qwen2.5-7B-Instruct": {
+      "Clean": {
+        "fallback_items": 0,
+        "gpu_seconds": 65.8,
+        "label_mass_below_0.5": 0.00030824240182479503,
+        "label_mass_mean": 0.9994609913075643,
+        "neutral_share_AddDiff": 0.11795044036423347,
+        "neutral_share_Clean": 0.14265888565457532,
+        "neutral_share_RevNon": 0.06630797464130798,
+        "neutral_share_RevTgt": 0.10779161043977044
+      },
+      "Mixed": {
+        "fallback_items": 0,
+        "gpu_seconds": 66.9,
+        "label_mass_below_0.5": 0.00012329696072991802,
+        "label_mass_mean": 0.9997532199001294,
+        "neutral_share_AddDiff": 0.1182909762651142,
+        "neutral_share_Clean": 0.14036050156739813,
+        "neutral_share_RevNon": 0.05928428428428428,
+        "neutral_share_RevTgt": 0.09428278154878467
+      },
+      "RN": {
+        "fallback_items": 0,
+        "gpu_seconds": 64.8,
+        "label_mass_below_0.5": 0.00030824240182479503,
+        "label_mass_mean": 0.9994474958387276,
+        "neutral_share_AddDiff": 0.11531478578892372,
+        "neutral_share_Clean": 0.13499029705926258,
+        "neutral_share_RevNon": 0.04989155822489156,
+        "neutral_share_RevTgt": 0.08486879263520665
+      },
+      "RT": {
+        "fallback_items": 0,
+        "gpu_seconds": 65.2,
+        "label_mass_below_0.5": 6.164848036495901e-05,
+        "label_mass_mean": 0.9997551815547747,
+        "neutral_share_AddDiff": 0.12847906403940887,
+        "neutral_share_Clean": 0.13964630915061949,
+        "neutral_share_RevNon": 0.06781781781781782,
+        "neutral_share_RevTgt": 0.09815017738951626
+      },
+      "Triplet": {
+        "fallback_items": 0,
+        "gpu_seconds": 66.2,
+        "label_mass_below_0.5": 0.0,
+        "label_mass_mean": 0.9998561124468283,
+        "neutral_share_AddDiff": 0.12451765188834153,
+        "neutral_share_Clean": 0.14658717719062545,
+        "neutral_share_RevNon": 0.06218718718718719,
+        "neutral_share_RevTgt": 0.09211572087108566
+      },
+      "ZS": {
+        "fallback_items": 0,
+        "gpu_seconds": 18.3,
+        "label_mass_below_0.5": 0.002219345293138524,
+        "label_mass_mean": 0.9968335343073793,
+        "neutral_share_AddDiff": 0.11983878190774741,
+        "neutral_share_Clean": 0.1362964621585311,
+        "neutral_share_RevNon": 0.05262762762762763,
+        "neutral_share_RevTgt": 0.11605992349760043
+      }
+    },
+    "mistralai__Mistral-7B-Instruct-v0.3": {
+      "Clean": {
+        "fallback_items": 0,
+        "gpu_seconds": 73.9,
+        "label_mass_below_0.5": 0.00024659392145983603,
+        "label_mass_mean": 0.999019104864065,
+        "neutral_share_AddDiff": 0.13995745633676668,
+        "neutral_share_Clean": 0.1510981116584565,
+        "neutral_share_RevNon": 0.10053386720053387,
+        "neutral_share_RevTgt": 0.15724675913243166
+      },
+      "Mixed": {
+        "fallback_items": 0,
+        "gpu_seconds": 73.9,
+        "label_mass_below_0.5": 0.00024659392145983603,
+        "label_mass_mean": 0.999261736021207,
+        "neutral_share_AddDiff": 0.12633648678907297,
+        "neutral_share_Clean": 0.13563171742051053,
+        "neutral_share_RevNon": 0.0831081081081081,
+        "neutral_share_RevTgt": 0.12236748208348976
+      },
+      "RN": {
+        "fallback_items": 0,
+        "gpu_seconds": 72.3,
+        "label_mass_below_0.5": 0.00024659392145983603,
+        "label_mass_mean": 0.9992166074841254,
+        "neutral_share_AddDiff": 0.1292599641737573,
+        "neutral_share_Clean": 0.1350336804000597,
+        "neutral_share_RevNon": 0.07897063730397064,
+        "neutral_share_RevTgt": 0.12163949174267868
+      },
+      "RT": {
+        "fallback_items": 0,
+        "gpu_seconds": 72.5,
+        "label_mass_below_0.5": 0.00012329696072991802,
+        "label_mass_mean": 0.9994699673263054,
+        "neutral_share_AddDiff": 0.12058982683982683,
+        "neutral_share_Clean": 0.13881689431258395,
+        "neutral_share_RevNon": 0.0811061061061061,
+        "neutral_share_RevTgt": 0.12268793311620448
+      },
+      "Triplet": {
+        "fallback_items": 0,
+        "gpu_seconds": 73.5,
+        "label_mass_below_0.5": 0.0004931878429196721,
+        "label_mass_mean": 0.9990748683804944,
+        "neutral_share_AddDiff": 0.1278973540826989,
+        "neutral_share_Clean": 0.13335012688460965,
+        "neutral_share_RevNon": 0.06641641641641642,
+        "neutral_share_RevTgt": 0.12501310551716907
+      },
+      "ZS": {
+        "fallback_items": 0,
+        "gpu_seconds": 20.2,
+        "label_mass_below_0.5": 0.000184945441094877,
+        "label_mass_mean": 0.9990772017754763,
+        "neutral_share_AddDiff": 0.12544362964621586,
+        "neutral_share_Clean": 0.18413289296909985,
+        "neutral_share_RevNon": 0.11331331331331332,
+        "neutral_share_RevTgt": 0.15433141570024048
+      }
+    }
+  },
+  "full_run": true,
+  "models_complete": [
+    "Qwen__Qwen2.5-7B-Instruct",
+    "mistralai__Mistral-7B-Instruct-v0.3"
+  ],
+  "models_incomplete": {
+    "logs": 32,
+    "preflight": 32
+  },
+  "profile": {
+    "Qwen__Qwen2.5-7B-Instruct": {
+      "Clean": {
+        "AddDiff": {
+          "by_domain": {
+            "laptop": 79.20585161964472,
+            "restaurant": 82.32142857142857
+          },
+          "ci95": [
+            78.59486872947224,
+            82.8456418897323
+          ],
+          "estimate": 80.76364009553664
+        },
+        "Clean": {
+          "by_domain": {
+            "laptop": 81.45245559038663,
+            "restaurant": 87.05357142857143
+          },
+          "ci95": [
+            82.0928798258103,
+            86.29955770121957
+          ],
+          "estimate": 84.25301350947903
+        },
+        "J": {
+          "by_domain": {
+            "laptop": 66.91358024691358,
+            "restaurant": 66.29129129129129
+          },
+          "ci95": [
+            61.164494960193615,
+            71.75891781864313
+          ],
+          "estimate": 66.60243576910244
+        },
+        "RevNon": {
+          "by_domain": {
+            "laptop": 83.20987654320989,
+            "restaurant": 82.58258258258259
+          },
+          "ci95": [
+            79.08157057418791,
+            86.5438413893765
+          ],
+          "estimate": 82.89622956289624
+        },
+        "RevTgt": {
+          "by_domain": {
+            "laptop": 72.96137339055794,
+            "restaurant": 75.41371158392435
+          },
+          "ci95": [
+            71.34154416018941,
+            76.8909633892283
+          ],
+          "estimate": 74.18754248724115
+        },
+        "W": {
+          "by_domain": {
+            "laptop": 72.96137339055794,
+            "restaurant": 75.41371158392435
+          },
+          "ci95": [
+            71.34030077554942,
+            76.86019546892189
+          ],
+          "estimate": 74.18754248724115
+        }
+      },
+      "Mixed": {
+        "AddDiff": {
+          "by_domain": {
+            "laptop": 79.83281086729362,
+            "restaurant": 83.98809523809524
+          },
+          "ci95": [
+            79.76398305542665,
+            83.92473549596812
+          ],
+          "estimate": 81.91045305269444
+        },
+        "Clean": {
+          "by_domain": {
+            "laptop": 81.81818181818181,
+            "restaurant": 86.96428571428571
+          },
+          "ci95": [
+            82.3027413203557,
+            86.44308681430529
+          ],
+          "estimate": 84.39123376623377
+        },
+        "J": {
+          "by_domain": {
+            "laptop": 67.1604938271605,
+            "restaurant": 69.66966966966967
+          },
+          "ci95": [
+            62.91451758381679,
+            73.58754256759191
+          ],
+          "estimate": 68.41508174841508
+        },
+        "RevNon": {
+          "by_domain": {
+            "laptop": 83.4567901234568,
+            "restaurant": 83.78378378378379
+          },
+          "ci95": [
+            79.70532466739202,
+            87.26865882072971
+          ],
+          "estimate": 83.6202869536203
+        },
+        "RevTgt": {
+          "by_domain": {
+            "laptop": 73.6766809728183,
+            "restaurant": 77.50197005516155
+          },
+          "ci95": [
+            72.80361004656743,
+            78.29937588151496
+          ],
+          "estimate": 75.58932551398993
+        },
+        "W": {
+          "by_domain": {
+            "laptop": 73.6766809728183,
+            "restaurant": 77.50197005516155
+          },
+          "ci95": [
+            72.79867068339766,
+            78.24348600196288
+          ],
+          "estimate": 75.58932551398993
+        }
+      },
+      "RN": {
+        "AddDiff": {
+          "by_domain": {
+            "laptop": 79.98955067920585,
+            "restaurant": 84.43452380952381
+          },
+          "ci95": [
+            80.05303043505369,
+            84.2619718773628
+          ],
+          "estimate": 82.21203724436484
+        },
+        "Clean": {
+          "by_domain": {
+            "laptop": 82.13166144200626,
+            "restaurant": 87.17261904761904
+          },
+          "ci95": [
+            82.55519767415537,
+            86.65929778735993
+          ],
+          "estimate": 84.65214024481264
+        },
+        "J": {
+          "by_domain": {
+            "laptop": 69.62962962962962,
+            "restaurant": 70.04504504504504
+          },
+          "ci95": [
+            64.51951196650577,
+            74.82278790527131
+          ],
+          "estimate": 69.83733733733733
+        },
+        "RevNon": {
+          "by_domain": {
+            "laptop": 84.19753086419753,
+            "restaurant": 83.78378378378379
+          },
+          "ci95": [
+            80.23307805026982,
+            87.56332865753076
+          ],
+          "estimate": 83.99065732399066
+        },
+        "RevTgt": {
+          "by_domain": {
+            "laptop": 73.67668097281832,
+            "restaurant": 77.62017336485422
+          },
+          "ci95": [
+            72.84851532256984,
+            78.39481077768332
+          ],
+          "estimate": 75.64842716883626
+        },
+        "W": {
+          "by_domain": {
+            "laptop": 73.67668097281832,
+            "restaurant": 77.62017336485422
+          },
+          "ci95": [
+            72.84805942314772,
+            78.32849132087064
+          ],
+          "estimate": 75.64842716883626
+        }
+      },
+      "RT": {
+        "AddDiff": {
+          "by_domain": {
+            "laptop": 79.62382445141066,
+            "restaurant": 83.36309523809524
+          },
+          "ci95": [
+            79.3278891525607,
+            83.57557736711284
+          ],
+          "estimate": 81.49345984475295
+        },
+        "Clean": {
+          "by_domain": {
+            "laptop": 80.98223615464995,
+            "restaurant": 87.35119047619048
+          },
+          "ci95": [
+            82.03765556020896,
+            86.19211405836347
+          ],
+          "estimate": 84.16671331542022
+        },
+        "J": {
+          "by_domain": {
+            "laptop": 66.17283950617285,
+            "restaurant": 69.06906906906907
+          },
+          "ci95": [
+            62.25046678506753,
+            72.79805725504069
+          ],
+          "estimate": 67.62095428762096
+        },
+        "RevNon": {
+          "by_domain": {
+            "laptop": 82.22222222222221,
+            "restaurant": 83.7087087087087
+          },
+          "ci95": [
+            79.01039028523142,
+            86.77057909621774
+          ],
+          "estimate": 82.96546546546546
+        },
+        "RevTgt": {
+          "by_domain": {
+            "laptop": 73.67668097281832,
+            "restaurant": 77.18676122931441
+          },
+          "ci95": [
+            72.69190300136023,
+            78.0827556868547
+          ],
+          "estimate": 75.43172110106636
+        },
+        "W": {
+          "by_domain": {
+            "laptop": 73.67668097281832,
+            "restaurant": 77.18676122931441
+          },
+          "ci95": [
+            72.68480796536403,
+            77.99742498015159
+          ],
+          "estimate": 75.43172110106636
+        }
+      },
+      "Triplet": {
+        "AddDiff": {
+          "by_domain": {
+            "laptop": 79.62382445141066,
+            "restaurant": 83.00595238095237
+          },
+          "ci95": [
+            79.12997513708527,
+            83.4044119845324
+          ],
+          "estimate": 81.3148884161815
+        },
+        "Clean": {
+          "by_domain": {
+            "laptop": 80.72100313479623,
+            "restaurant": 86.16071428571429
+          },
+          "ci95": [
+            81.24586271206202,
+            85.54662519899857
+          ],
+          "estimate": 83.44085871025527
+        },
+        "J": {
+          "by_domain": {
+            "laptop": 66.66666666666667,
+            "restaurant": 70.12012012012012
+          },
+          "ci95": [
+            63.03348191000327,
+            73.49853880317399
+          ],
+          "estimate": 68.3933933933934
+        },
+        "RevNon": {
+          "by_domain": {
+            "laptop": 82.46913580246914,
+            "restaurant": 84.53453453453454
+          },
+          "ci95": [
+            79.7873338237357,
+            87.07105116179073
+          ],
+          "estimate": 83.50183516850184
+        },
+        "RevTgt": {
+          "by_domain": {
+            "laptop": 73.89127324749641,
+            "restaurant": 76.91095350669819
+          },
+          "ci95": [
+            72.58005223637262,
+            78.13155397545792
+          ],
+          "estimate": 75.4011133770973
+        },
+        "W": {
+          "by_domain": {
+            "laptop": 73.89127324749641,
+            "restaurant": 76.91095350669819
+          },
+          "ci95": [
+            72.56904205013679,
+            78.00636103602892
+          ],
+          "estimate": 75.4011133770973
+        }
+      },
+      "ZS": {
+        "AddDiff": {
+          "by_domain": {
+            "laptop": 79.46708463949844,
+            "restaurant": 83.83928571428571
+          },
+          "ci95": [
+            79.33598017753792,
+            83.81039483543077
+          ],
+          "estimate": 81.65318517689207
+        },
+        "Clean": {
+          "by_domain": {
+            "laptop": 81.97492163009404,
+            "restaurant": 86.33928571428571
+          },
+          "ci95": [
+            81.95390798747151,
+            86.29518761569783
+          ],
+          "estimate": 84.15710367218988
+        },
+        "J": {
+          "by_domain": {
+            "laptop": 68.88888888888889,
+            "restaurant": 67.34234234234235
+          },
+          "ci95": [
+            62.77045882104943,
+            73.22007156643593
+          ],
+          "estimate": 68.11561561561561
+        },
+        "RevNon": {
+          "by_domain": {
+            "laptop": 84.44444444444444,
+            "restaurant": 84.23423423423424
+          },
+          "ci95": [
+            80.50373001668876,
+            87.96507284765626
+          ],
+          "estimate": 84.33933933933935
+        },
+        "RevTgt": {
+          "by_domain": {
+            "laptop": 71.67381974248927,
+            "restaurant": 75.05910165484633
+          },
+          "ci95": [
+            70.4486163292606,
+            76.2738702712754
+          ],
+          "estimate": 73.3664606986678
+        },
+        "W": {
+          "by_domain": {
+            "laptop": 71.67381974248927,
+            "restaurant": 75.05910165484633
+          },
+          "ci95": [
+            70.4486163292606,
+            76.26825740422717
+          ],
+          "estimate": 73.3664606986678
+        }
+      }
+    },
+    "mistralai__Mistral-7B-Instruct-v0.3": {
+      "Clean": {
+        "AddDiff": {
+          "by_domain": {
+            "laptop": 78.63113897596656,
+            "restaurant": 80.77380952380952
+          },
+          "ci95": [
+            77.60624900648381,
+            81.70296467020073
+          ],
+          "estimate": 79.70247424988804
+        },
+        "Clean": {
+          "by_domain": {
+            "laptop": 79.62382445141066,
+            "restaurant": 83.00595238095237
+          },
+          "ci95": [
+            79.04724171529686,
+            83.47460916215941
+          ],
+          "estimate": 81.3148884161815
+        },
+        "J": {
+          "by_domain": {
+            "laptop": 58.2716049382716,
+            "restaurant": 54.87987987987989
+          },
+          "ci95": [
+            51.10755817823575,
+            62.0519190743293
+          ],
+          "estimate": 56.575742409075744
+        },
+        "RevNon": {
+          "by_domain": {
+            "laptop": 80.98765432098766,
+            "restaurant": 76.50150150150151
+          },
+          "ci95": [
+            74.87850109717371,
+            82.52812921384938
+          ],
+          "estimate": 78.74457791124459
+        },
+        "RevTgt": {
+          "by_domain": {
+            "laptop": 66.38054363376251,
+            "restaurant": 70.2915681639086
+          },
+          "ci95": [
+            65.26313695802673,
+            71.28772285184277
+          ],
+          "estimate": 68.33605589883555
+        },
+        "W": {
+          "by_domain": {
+            "laptop": 66.38054363376251,
+            "restaurant": 70.2915681639086
+          },
+          "ci95": [
+            65.24161236914318,
+            71.22642376010387
+          ],
+          "estimate": 68.33605589883555
+        }
+      },
+      "Mixed": {
+        "AddDiff": {
+          "by_domain": {
+            "laptop": 78.94461859979101,
+            "restaurant": 82.3809523809524
+          },
+          "ci95": [
+            78.60994292435254,
+            82.65619678579125
+          ],
+          "estimate": 80.6627854903717
+        },
+        "Clean": {
+          "by_domain": {
+            "laptop": 80.09404388714734,
+            "restaurant": 82.94642857142857
+          },
+          "ci95": [
+            79.19848538740948,
+            83.74757082657916
+          ],
+          "estimate": 81.52023622928795
+        },
+        "J": {
+          "by_domain": {
+            "laptop": 56.79012345679013,
+            "restaurant": 63.963963963963955
+          },
+          "ci95": [
+            55.03741260399155,
+            65.65828763965487
+          ],
+          "estimate": 60.37704371037704
+        },
+        "RevNon": {
+          "by_domain": {
+            "laptop": 80.49382716049382,
+            "restaurant": 81.45645645645645
+          },
+          "ci95": [
+            77.1909964870495,
+            84.5874255388048
+          ],
+          "estimate": 80.97514180847514
+        },
+        "RevTgt": {
+          "by_domain": {
+            "laptop": 67.0958512160229,
+            "restaurant": 74.15287628053585
+          },
+          "ci95": [
+            67.59287310461376,
+            73.57033100253541
+          ],
+          "estimate": 70.62436374827936
+        },
+        "W": {
+          "by_domain": {
+            "laptop": 67.0958512160229,
+            "restaurant": 74.15287628053585
+          },
+          "ci95": [
+            67.59287310461376,
+            73.54161218120669
+          ],
+          "estimate": 70.62436374827936
+        }
+      },
+      "RN": {
+        "AddDiff": {
+          "by_domain": {
+            "laptop": 76.90700104493209,
+            "restaurant": 82.02380952380953
+          },
+          "ci95": [
+            77.31818663052582,
+            81.52867897111543
+          ],
+          "estimate": 79.4654052843708
+        },
+        "Clean": {
+          "by_domain": {
+            "laptop": 78.31765935214212,
+            "restaurant": 83.21428571428571
+          },
+          "ci95": [
+            78.44890449706111,
+            82.9993079569621
+          ],
+          "estimate": 80.76597253321391
+        },
+        "J": {
+          "by_domain": {
+            "laptop": 60.74074074074074,
+            "restaurant": 59.90990990990991
+          },
+          "ci95": [
+            54.936664774508564,
+            65.54640335699311
+          ],
+          "estimate": 60.32532532532532
+        },
+        "RevNon": {
+          "by_domain": {
+            "laptop": 80.98765432098766,
+            "restaurant": 80.70570570570571
+          },
+          "ci95": [
+            77.00248857856216,
+            84.57888535549148
+          ],
+          "estimate": 80.84668001334668
+        },
+        "RevTgt": {
+          "by_domain": {
+            "laptop": 67.81115879828326,
+            "restaurant": 71.39479905437352
+          },
+          "ci95": [
+            66.5714725024953,
+            72.50335457903255
+          ],
+          "estimate": 69.60297892632839
+        },
+        "W": {
+          "by_domain": {
+            "laptop": 67.81115879828326,
+            "restaurant": 71.39479905437352
+          },
+          "ci95": [
+            66.5714725024953,
+            72.50335457903255
+          ],
+          "estimate": 69.60297892632839
+        }
+      },
+      "RT": {
+        "AddDiff": {
+          "by_domain": {
+            "laptop": 77.01149425287356,
+            "restaurant": 81.875
+          },
+          "ci95": [
+            77.3789504276674,
+            81.45934443717657
+          ],
+          "estimate": 79.44324712643677
+        },
+        "Clean": {
+          "by_domain": {
+            "laptop": 78.31765935214212,
+            "restaurant": 82.91666666666667
+          },
+          "ci95": [
+            78.33541935417067,
+            82.80576583700794
+          ],
+          "estimate": 80.6171630094044
+        },
+        "J": {
+          "by_domain": {
+            "laptop": 60.74074074074074,
+            "restaurant": 58.25825825825826
+          },
+          "ci95": [
+            53.94504446823549,
+            64.81028990699949
+          ],
+          "estimate": 59.4994994994995
+        },
+        "RevNon": {
+          "by_domain": {
+            "laptop": 82.46913580246913,
+            "restaurant": 78.07807807807808
+          },
+          "ci95": [
+            76.54331152143764,
+            83.87653229059342
+          ],
+          "estimate": 80.2736069402736
+        },
+        "RevTgt": {
+          "by_domain": {
+            "laptop": 67.59656652360515,
+            "restaurant": 72.18282111899133
+          },
+          "ci95": [
+            66.88832377818534,
+            72.78332741945295
+          ],
+          "estimate": 69.88969382129824
+        },
+        "W": {
+          "by_domain": {
+            "laptop": 67.59656652360515,
+            "restaurant": 72.18282111899133
+          },
+          "ci95": [
+            66.88026389401398,
+            72.76498713926799
+          ],
+          "estimate": 69.88969382129824
+        }
+      },
+      "Triplet": {
+        "AddDiff": {
+          "by_domain": {
+            "laptop": 78.16091954022988,
+            "restaurant": 82.32142857142857
+          },
+          "ci95": [
+            78.23729081089407,
+            82.19002198033799
+          ],
+          "estimate": 80.24117405582922
+        },
+        "Clean": {
+          "by_domain": {
+            "laptop": 79.0491118077325,
+            "restaurant": 82.58928571428571
+          },
+          "ci95": [
+            78.51438512920839,
+            83.0519912343172
+          ],
+          "estimate": 80.8191987610091
+        },
+        "J": {
+          "by_domain": {
+            "laptop": 60.0,
+            "restaurant": 61.03603603603603
+          },
+          "ci95": [
+            55.07520804247078,
+            65.91806971089659
+          ],
+          "estimate": 60.51801801801801
+        },
+        "RevNon": {
+          "by_domain": {
+            "laptop": 80.49382716049384,
+            "restaurant": 80.70570570570571
+          },
+          "ci95": [
+            76.95198843790551,
+            84.17526803897886
+          ],
+          "estimate": 80.59976643309977
+        },
+        "RevTgt": {
+          "by_domain": {
+            "laptop": 68.52646638054362,
+            "restaurant": 73.40425531914893
+          },
+          "ci95": [
+            67.87051992380708,
+            73.87451019536273
+          ],
+          "estimate": 70.96536084984628
+        },
+        "W": {
+          "by_domain": {
+            "laptop": 68.52646638054362,
+            "restaurant": 73.40425531914893
+          },
+          "ci95": [
+            67.87051992380708,
+            73.85874117053358
+          ],
+          "estimate": 70.96536084984628
+        }
+      },
+      "ZS": {
+        "AddDiff": {
+          "by_domain": {
+            "laptop": 79.3103448275862,
+            "restaurant": 83.48214285714286
+          },
+          "ci95": [
+            79.13465761523905,
+            83.56799913392267
+          ],
+          "estimate": 81.39624384236453
+        },
+        "Clean": {
+          "by_domain": {
+            "laptop": 80.40752351097179,
+            "restaurant": 82.41071428571429
+          },
+          "ci95": [
+            79.06370191050239,
+            83.63678426409102
+          ],
+          "estimate": 81.40911889834304
+        },
+        "J": {
+          "by_domain": {
+            "laptop": 61.48148148148148,
+            "restaurant": 64.41441441441441
+          },
+          "ci95": [
+            57.49020937454035,
+            68.22379385964912
+          ],
+          "estimate": 62.947947947947945
+        },
+        "RevNon": {
+          "by_domain": {
+            "laptop": 82.22222222222223,
+            "restaurant": 81.75675675675676
+          },
+          "ci95": [
+            77.9067420074766,
+            85.81258473672585
+          ],
+          "estimate": 81.9894894894895
+        },
+        "RevTgt": {
+          "by_domain": {
+            "laptop": 66.7381974248927,
+            "restaurant": 73.28605200945627
+          },
+          "ci95": [
+            66.84249946647574,
+            73.01684334765075
+          ],
+          "estimate": 70.01212471717449
+        },
+        "W": {
+          "by_domain": {
+            "laptop": 66.7381974248927,
+            "restaurant": 73.28605200945627
+          },
+          "ci95": [
+            66.84249946647574,
+            73.01684334765075
+          ],
+          "estimate": 70.01212471717449
+        }
+      }
+    },
+    "model_mean": {
+      "Clean": {
+        "AddDiff": {
+          "ci95": [
+            78.25496954570438,
+            82.1353211923356
+          ],
+          "estimate": 80.23305717271234
+        },
+        "Clean": {
+          "ci95": [
+            80.74346713088204,
+            84.7425378787501
+          ],
+          "estimate": 82.78395096283026
+        },
+        "J": {
+          "ci95": [
+            56.44407807257085,
+            66.54536978235964
+          ],
+          "estimate": 61.58908908908909
+        },
+        "RevNon": {
+          "ci95": [
+            77.20360104629928,
+            84.30963791808061
+          ],
+          "estimate": 80.82040373707042
+        },
+        "RevTgt": {
+          "ci95": [
+            68.5411273116702,
+            73.83569134787088
+          ],
+          "estimate": 71.26179919303834
+        },
+        "W": {
+          "ci95": [
+            68.53144772417917,
+            73.79968310788493
+          ],
+          "estimate": 71.26179919303834
+        }
+      },
+      "Mixed": {
+        "AddDiff": {
+          "ci95": [
+            79.3399698779501,
+            83.16302257562157
+          ],
+          "estimate": 81.28661927153307
+        },
+        "Clean": {
+          "ci95": [
+            80.90338766205109,
+            84.92946312689088
+          ],
+          "estimate": 82.95573499776086
+        },
+        "J": {
+          "ci95": [
+            59.335218573173954,
+            69.34486236969167
+          ],
+          "estimate": 64.39606272939605
+        },
+        "RevNon": {
+          "ci95": [
+            78.69271928535723,
+            85.7018633519448
+          ],
+          "estimate": 82.29771438104771
+        },
+        "RevTgt": {
+          "ci95": [
+            70.40033661117977,
+            75.70707818406706
+          ],
+          "estimate": 73.10684463113465
+        },
+        "W": {
+          "ci95": [
+            70.40033661117977,
+            75.6528227238357
+          ],
+          "estimate": 73.10684463113465
+        }
+      },
+      "RN": {
+        "AddDiff": {
+          "ci95": [
+            78.83523845156108,
+            82.75874711643989
+          ],
+          "estimate": 80.83872126436782
+        },
+        "Clean": {
+          "ci95": [
+            80.63258965421653,
+            84.68148291719953
+          ],
+          "estimate": 82.70905638901328
+        },
+        "J": {
+          "ci95": [
+            60.03162644091449,
+            69.83301077700644
+          ],
+          "estimate": 65.08133133133133
+        },
+        "RevNon": {
+          "ci95": [
+            78.89354792343659,
+            85.81054145253707
+          ],
+          "estimate": 82.41866866866867
+        },
+        "RevTgt": {
+          "ci95": [
+            69.9323046113023,
+            75.21603297979271
+          ],
+          "estimate": 72.62570304758233
+        },
+        "W": {
+          "ci95": [
+            69.93011495188085,
+            75.18487709212161
+          ],
+          "estimate": 72.62570304758233
+        }
+      },
+      "RT": {
+        "AddDiff": {
+          "ci95": [
+            78.46909631975328,
+            82.36920724015376
+          ],
+          "estimate": 80.46835348559486
+        },
+        "Clean": {
+          "ci95": [
+            80.32392762717149,
+            84.33846522784926
+          ],
+          "estimate": 82.39193816241232
+        },
+        "J": {
+          "ci95": [
+            58.40831375428108,
+            68.51124826451627
+          ],
+          "estimate": 63.56022689356023
+        },
+        "RevNon": {
+          "ci95": [
+            77.99039942002966,
+            85.10592587459965
+          ],
+          "estimate": 81.61953620286953
+        },
+        "RevTgt": {
+          "ci95": [
+            69.98386824420434,
+            75.22377277660419
+          ],
+          "estimate": 72.6607074611823
+        },
+        "W": {
+          "ci95": [
+            69.98202495450911,
+            75.17119030021749
+          ],
+          "estimate": 72.6607074611823
+        }
+      },
+      "Triplet": {
+        "AddDiff": {
+          "ci95": [
+            78.80100186143184,
+            82.65464329166123
+          ],
+          "estimate": 80.77803123600536
+        },
+        "Clean": {
+          "ci95": [
+            80.03296266817088,
+            84.12202830615554
+          ],
+          "estimate": 82.13002873563218
+        },
+        "J": {
+          "ci95": [
+            59.401648796906514,
+            69.35059297354934
+          ],
+          "estimate": 64.4557057057057
+        },
+        "RevNon": {
+          "ci95": [
+            78.58019561621242,
+            85.40408896658896
+          ],
+          "estimate": 82.0508008008008
+        },
+        "RevTgt": {
+          "ci95": [
+            70.48745292001584,
+            75.78002199722707
+          ],
+          "estimate": 73.18323711347179
+        },
+        "W": {
+          "ci95": [
+            70.48556391753378,
+            75.69516035626692
+          ],
+          "estimate": 73.18323711347179
+        }
+      },
+      "ZS": {
+        "AddDiff": {
+          "ci95": [
+            79.39757088840612,
+            83.5259896468226
+          ],
+          "estimate": 81.5247145096283
+        },
+        "Clean": {
+          "ci95": [
+            80.74983256789037,
+            84.77465879918857
+          ],
+          "estimate": 82.78311128526646
+        },
+        "J": {
+          "ci95": [
+            60.603444987126665,
+            70.2809984333216
+          ],
+          "estimate": 65.53178178178177
+        },
+        "RevNon": {
+          "ci95": [
+            79.54088358831794,
+            86.54239715885883
+          ],
+          "estimate": 83.16441441441442
+        },
+        "RevTgt": {
+          "ci95": [
+            68.96287232958183,
+            74.33561853331535
+          ],
+          "estimate": 71.68929270792114
+        },
+        "W": {
+          "ci95": [
+            68.96287232958183,
+            74.33561853331535
+          ],
+          "estimate": 71.68929270792114
+        }
+      }
+    }
+  },
+  "reference_profile": {
+    "RoBERTa-ft:CleanMatched": {
+      "AddDiff": {
+        "ci95": [
+          75.08941374709651,
+          79.41766539018847
+        ],
+        "estimate": 77.34909128228094
+      },
+      "Clean": {
+        "ci95": [
+          81.45794238174724,
+          85.68366189850278
+        ],
+        "estimate": 83.67564188684878
+      },
+      "J": {
+        "ci95": [
+          50.53204560928634,
+          59.93630232354315
+        ],
+        "estimate": 55.22022022022021
+      },
+      "RevNon": {
+        "ci95": [
+          81.26483987723596,
+          87.58851208665838
+        ],
+        "estimate": 84.50533867200534
+      },
+      "RevTgt": {
+        "ci95": [
+          63.00461285149127,
+          68.72955796516638
+        ],
+        "estimate": 65.87188046415514
+      },
+      "W": {
+        "ci95": [
+          63.00461285149127,
+          68.72867694822541
+        ],
+        "estimate": 65.87188046415514
+      }
+    },
+    "RoBERTa-ft:Mixed": {
+      "AddDiff": {
+        "ci95": [
+          79.71203959020615,
+          83.93643907199102
+        ],
+        "estimate": 81.90089005821764
+      },
+      "Clean": {
+        "ci95": [
+          80.6254956068623,
+          84.82817896542231
+        ],
+        "estimate": 82.79239438722198
+      },
+      "J": {
+        "ci95": [
+          64.63432457182458,
+          74.67050953978236
+        ],
+        "estimate": 69.72305638972307
+      },
+      "RevNon": {
+        "ci95": [
+          85.04601043117923,
+          91.1966964750275
+        ],
+        "estimate": 88.20236903570236
+      },
+      "RevTgt": {
+        "ci95": [
+          66.98261720193258,
+          72.58364825469089
+        ],
+        "estimate": 69.83811726985866
+      },
+      "W": {
+        "ci95": [
+          66.98261720193258,
+          72.58010214464683
+        ],
+        "estimate": 69.83811726985866
+      }
+    },
+    "RoBERTa-ft:Paired": {
+      "AddDiff": {
+        "ci95": [
+          79.86725011125493,
+          84.21852647503846
+        ],
+        "estimate": 82.11020301537542
+      },
+      "Clean": {
+        "ci95": [
+          80.65911331353846,
+          84.93046235097947
+        ],
+        "estimate": 82.8710908344529
+      },
+      "J": {
+        "ci95": [
+          69.12334245893014,
+          78.2539940145195
+        ],
+        "estimate": 73.7404070737404
+      },
+      "RevNon": {
+        "ci95": [
+          86.11990638970306,
+          92.02899563369049
+        ],
+        "estimate": 89.15665665665665
+      },
+      "RevTgt": {
+        "ci95": [
+          68.7113923761118,
+          74.22326773242396
+        ],
+        "estimate": 71.50116512275218
+      },
+      "W": {
+        "ci95": [
+          68.7113923761118,
+          74.22205033762823
+        ],
+        "estimate": 71.50116512275218
+      }
+    }
+  },
+  "references": [
+    "CleanMatched",
+    "Mixed",
+    "Paired"
+  ],
+  "replicates": 10000,
+  "signatures": {
+    "Qwen__Qwen2.5-7B-Instruct": {
+      "demonstrations_sha256": "54fc889c2d4f15f15b3c930a648ce9a228f12fcb5823662cb2a21d59db840879",
+      "instruction_sha256": "71518ebbb43723c272554eb780d5f928ffc9ac08dc35f35fda2f805449a45050",
+      "k": 6,
+      "max_items": null,
+      "model": "Qwen/Qwen2.5-7B-Instruct",
+      "scoring_version": "label-first-token-logsumexp/v1"
+    },
+    "mistralai__Mistral-7B-Instruct-v0.3": {
+      "demonstrations_sha256": "54fc889c2d4f15f15b3c930a648ce9a228f12fcb5823662cb2a21d59db840879",
+      "instruction_sha256": "71518ebbb43723c272554eb780d5f928ffc9ac08dc35f35fda2f805449a45050",
+      "k": 6,
+      "max_items": null,
+      "model": "mistralai/Mistral-7B-Instruct-v0.3",
+      "scoring_version": "label-first-token-logsumexp/v1"
+    }
+  },
+  "zero_shot_vs_finetuned": {
+    "Qwen__Qwen2.5-7B-Instruct:ZS_minus_RoBERTa-ft:CleanMatched:Clean": {
+      "ci95": [
+        -1.522713915490484,
+        2.5334116162484475
+      ],
+      "estimate": 0.4814617853410965
+    },
+    "Qwen__Qwen2.5-7B-Instruct:ZS_minus_RoBERTa-ft:CleanMatched:J": {
+      "ci95": [
+        8.017656732438471,
+        17.550893609229753
+      ],
+      "estimate": 12.895395395395397
+    },
+    "Qwen__Qwen2.5-7B-Instruct:ZS_minus_RoBERTa-ft:CleanMatched:W": {
+      "ci95": [
+        4.666913770073636,
+        10.406886040579375
+      ],
+      "estimate": 7.494580234512654
+    },
+    "Qwen__Qwen2.5-7B-Instruct:ZS_minus_RoBERTa-ft:Mixed:Clean": {
+      "ci95": [
+        -0.6424166165955171,
+        3.4523472685829977
+      ],
+      "estimate": 1.3647092849679012
+    },
+    "Qwen__Qwen2.5-7B-Instruct:ZS_minus_RoBERTa-ft:Mixed:J": {
+      "ci95": [
+        -5.3454062336309445,
+        1.8589045446384873
+      ],
+      "estimate": -1.6074407741074594
+    },
+    "Qwen__Qwen2.5-7B-Instruct:ZS_minus_RoBERTa-ft:Mixed:W": {
+      "ci95": [
+        0.8161353963400917,
+        6.320871354522668
+      ],
+      "estimate": 3.528343428809137
+    },
+    "Qwen__Qwen2.5-7B-Instruct:ZS_minus_RoBERTa-ft:Paired:Clean": {
+      "ci95": [
+        -0.7682042435106061,
+        3.3575874703154738
+      ],
+      "estimate": 1.2860128377369762
+    },
+    "Qwen__Qwen2.5-7B-Instruct:ZS_minus_RoBERTa-ft:Paired:J": {
+      "ci95": [
+        -9.318867673201328,
+        -2.131673768842923
+      ],
+      "estimate": -5.62479145812479
+    },
+    "Qwen__Qwen2.5-7B-Instruct:ZS_minus_RoBERTa-ft:Paired:W": {
+      "ci95": [
+        -1.0316538907406418,
+        4.828354152871958
+      ],
+      "estimate": 1.86529557591561
+    },
+    "mistralai__Mistral-7B-Instruct-v0.3:ZS_minus_RoBERTa-ft:CleanMatched:Clean": {
+      "ci95": [
+        -4.22516288663252,
+        -0.25143705186772364
+      ],
+      "estimate": -2.2665229885057414
+    },
+    "mistralai__Mistral-7B-Instruct-v0.3:ZS_minus_RoBERTa-ft:CleanMatched:J": {
+      "ci95": [
+        2.7851358535443738,
+        12.482000394381716
+      ],
+      "estimate": 7.727727727727732
+    },
+    "mistralai__Mistral-7B-Instruct-v0.3:ZS_minus_RoBERTa-ft:CleanMatched:W": {
+      "ci95": [
+        1.1945491298309703,
+        7.0262629858428
+      ],
+      "estimate": 4.140244253019347
+    },
+    "mistralai__Mistral-7B-Instruct-v0.3:ZS_minus_RoBERTa-ft:Mixed:Clean": {
+      "ci95": [
+        -3.352371714617836,
+        0.6174163479697472
+      ],
+      "estimate": -1.3832754888789367
+    },
+    "mistralai__Mistral-7B-Instruct-v0.3:ZS_minus_RoBERTa-ft:Mixed:J": {
+      "ci95": [
+        -11.161140524896267,
+        -2.5486751612147343
+      ],
+      "estimate": -6.775108441775124
+    },
+    "mistralai__Mistral-7B-Instruct-v0.3:ZS_minus_RoBERTa-ft:Mixed:W": {
+      "ci95": [
+        -2.6270575828786797,
+        2.890995555765419
+      ],
+      "estimate": 0.17400744731583018
+    },
+    "mistralai__Mistral-7B-Instruct-v0.3:ZS_minus_RoBERTa-ft:Paired:Clean": {
+      "ci95": [
+        -3.497086422594069,
+        0.5952991811452004
+      ],
+      "estimate": -1.4619719361098618
+    },
+    "mistralai__Mistral-7B-Instruct-v0.3:ZS_minus_RoBERTa-ft:Paired:J": {
+      "ci95": [
+        -14.988372023165846,
+        -6.5980794097220965
+      ],
+      "estimate": -10.792459125792455
+    },
+    "mistralai__Mistral-7B-Instruct-v0.3:ZS_minus_RoBERTa-ft:Paired:W": {
+      "ci95": [
+        -4.403008283759705,
+        1.380634645581592
+      ],
+      "estimate": -1.489040405577697
+    },
+    "model_mean:ZS_minus_RoBERTa-ft:CleanMatched:Clean": {
+      "ci95": [
+        -2.6315385504193154,
+        0.8674144178630638
+      ],
+      "estimate": -0.8925306015823224
+    },
+    "model_mean:ZS_minus_RoBERTa-ft:CleanMatched:J": {
+      "ci95": [
+        5.949472757572665,
+        14.545434995324051
+      ],
+      "estimate": 10.311561561561561
+    },
+    "model_mean:ZS_minus_RoBERTa-ft:CleanMatched:W": {
+      "ci95": [
+        3.2811506167103373,
+        8.440005046925238
+      ],
+      "estimate": 5.817412243766
+    },
+    "model_mean:ZS_minus_RoBERTa-ft:Mixed:Clean": {
+      "ci95": [
+        -1.744525558279411,
+        1.8136229924336686
+      ],
+      "estimate": -0.009283101955517736
+    },
+    "model_mean:ZS_minus_RoBERTa-ft:Mixed:J": {
+      "ci95": [
+        -7.631525126680528,
+        -0.8399376789350983
+      ],
+      "estimate": -4.1912746079412955
+    },
+    "model_mean:ZS_minus_RoBERTa-ft:Mixed:W": {
+      "ci95": [
+        -0.5955458700452574,
+        4.286772159583795
+      ],
+      "estimate": 1.8511754380624836
+    },
+    "model_mean:ZS_minus_RoBERTa-ft:Paired:Clean": {
+      "ci95": [
+        -1.8889533470128455,
+        1.7439567742201656
+      ],
+      "estimate": -0.0879795491864428
+    },
+    "model_mean:ZS_minus_RoBERTa-ft:Paired:J": {
+      "ci95": [
+        -11.508863809063287,
+        -4.929632057850257
+      ],
+      "estimate": -8.208625291958626
+    },
+    "model_mean:ZS_minus_RoBERTa-ft:Paired:W": {
+      "ci95": [
+        -2.389878342967944,
+        2.817842840701703
+      ],
+      "estimate": 0.18812758516895656
+    }
+  }
+}
