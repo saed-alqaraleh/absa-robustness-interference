@@ -1,0 +1,8 @@
+# Versions used in the kit's CPU tests (16 Oct 2026). On Colab keep the preinstalled torch (transformers needs >= 2.6).
+transformers==5.20.0
+peft==0.21.2
+accelerate==1.15.0
+numpy>=1.26
+# tests only
+pytest>=8
+tokenizers>=0.23.1

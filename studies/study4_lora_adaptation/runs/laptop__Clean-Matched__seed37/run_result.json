@@ -1,0 +1,65 @@
+{
+  "J_SI": 0.7037037037037037,
+  "R_mean": 0.8017794905960266,
+  "W": 0.7274678111587983,
+  "accuracy": {
+    "AddDiff": 0.8260188087774295,
+    "Clean": 0.8338557993730408,
+    "RevNon": 0.8518518518518519,
+    "RevTgt": 0.7274678111587983
+  },
+  "best_dev_accuracy": 0.72,
+  "best_epoch": 3,
+  "condition": "Clean-Matched",
+  "domain": "laptop",
+  "eval_batch_used": 32,
+  "eval_seconds": 34.5,
+  "gpu": "NVIDIA A100-SXM4-40GB",
+  "history": [
+    {
+      "dev_accuracy": 0.6933333333333334,
+      "epoch": 1,
+      "seconds": 197.0,
+      "train_loss": 0.42670140507950877
+    },
+    {
+      "dev_accuracy": 0.7066666666666667,
+      "epoch": 2,
+      "seconds": 196.6,
+      "train_loss": 0.20985303466162814
+    },
+    {
+      "dev_accuracy": 0.72,
+      "epoch": 3,
+      "seconds": 197.3,
+      "train_loss": 0.07388462681386075
+    }
+  ],
+  "model": "Qwen/Qwen3-8B",
+  "n": {
+    "AddDiff": 638,
+    "Clean": 638,
+    "RevNon": 135,
+    "RevTgt": 466
+  },
+  "n_J": 135,
+  "resolved_commit": null,
+  "revision": "b968826d9c46dd6066d109eabc6255188de91218",
+  "seed": 37,
+  "signature": "7ea2ecf15a836b1c042b53a1839ff74aaec09d3d63ed064b21a730d9b82c228e",
+  "total_seconds": 645.6,
+  "train_label_counts": {
+    "negative": 930,
+    "neutral": 429,
+    "positive": 1222
+  },
+  "train_rows": 2581,
+  "train_seconds": 590.8,
+  "trainable_parameters": 43646976,
+  "versions": {
+    "accelerate": "1.15.0",
+    "peft": "0.21.2",
+    "torch": "2.11.0+cu130",
+    "transformers": "5.20.0"
+  }
+}
