@@ -1,0 +1,7 @@
+# Colab already provides these; versions used for the offline tests are recorded in VALIDATION_LOG.txt
+torch
+transformers>=4.45
+tokenizers
+numpy
+nltk>=3.9    # WordNet 3.0 for the robustness-dev generator: nltk.download('wordnet')
+pytest       # tests only

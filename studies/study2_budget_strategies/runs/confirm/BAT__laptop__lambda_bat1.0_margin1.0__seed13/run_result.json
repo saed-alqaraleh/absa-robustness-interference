@@ -1,0 +1,121 @@
+{
+  "amendments": {
+    "date": "2026-10-07",
+    "fei_infonce": false,
+    "tuning_set": "dev+reserved",
+    "version": "1.1"
+  },
+  "best_dev_accuracy": 0.7333333333333333,
+  "best_epoch": 5,
+  "code_sha256": {
+    "common.py": "4db76d7384fd1ed2761b2bc0bb6daf9901a56a545deadea7da6a139b8703e78b",
+    "losses.py": "d27adbd26063408a78bd70803aa5ab15ed613c7776f99b0a909555f6eecd58da",
+    "trainer.py": "7d0b0e0c818b97f9e5c51590bceeeba4bafb341193e74648bd366c1f360a3c3f"
+  },
+  "condition": "BAT",
+  "config": {
+    "lambda_bat": 1.0,
+    "margin": 1.0
+  },
+  "domain": "laptop",
+  "environment": {
+    "gpu": "NVIDIA A100-SXM4-40GB",
+    "python": "3.13.15",
+    "torch": "2.11.0+cu130",
+    "transformers": "5.18.0"
+  },
+  "eval_summary": {
+    "AddDiff": {
+      "accuracy": 0.7241379310344828,
+      "macro_f1": 0.6869319927384444,
+      "n": 638
+    },
+    "Clean": {
+      "accuracy": 0.8040752351097179,
+      "macro_f1": 0.7666500571158879,
+      "n": 638
+    },
+    "RevNon": {
+      "accuracy": 0.4888888888888889,
+      "macro_f1": 0.38074074074074077,
+      "n": 135
+    },
+    "RevTgt": {
+      "accuracy": 0.7446351931330472,
+      "macro_f1": 0.6186824888516912,
+      "n": 466
+    }
+  },
+  "grouped": true,
+  "history": [
+    {
+      "aux_loss": 0.6653847435926213,
+      "dev_accuracy": 0.6533333333333333,
+      "epoch": 1,
+      "train_loss": 1.6022539087283758
+    },
+    {
+      "aux_loss": 0.33162011622102716,
+      "dev_accuracy": 0.6266666666666667,
+      "epoch": 2,
+      "train_loss": 0.9285274434583318
+    },
+    {
+      "aux_loss": 0.20265421293169997,
+      "dev_accuracy": 0.72,
+      "epoch": 3,
+      "train_loss": 0.6138907638550909
+    },
+    {
+      "aux_loss": 0.1464735826442915,
+      "dev_accuracy": 0.7066666666666667,
+      "epoch": 4,
+      "train_loss": 0.44549761962053586
+    },
+    {
+      "aux_loss": 0.09827666507493475,
+      "dev_accuracy": 0.7333333333333333,
+      "epoch": 5,
+      "train_loss": 0.32493814256870085
+    },
+    {
+      "aux_loss": 0.10365553503032532,
+      "dev_accuracy": 0.6933333333333334,
+      "epoch": 6,
+      "train_loss": 0.26865271682115155
+    },
+    {
+      "aux_loss": 0.07624321962587455,
+      "dev_accuracy": 0.7266666666666667,
+      "epoch": 7,
+      "train_loss": 0.2071815660312473
+    }
+  ],
+  "method": "bat",
+  "phase": "confirm",
+  "prediction_files": {
+    "AddDiff": "predictions_AddDiff.csv",
+    "Clean": "predictions_Clean.csv",
+    "RevNon": "predictions_RevNon.csv",
+    "RevTgt": "predictions_RevTgt.csv"
+  },
+  "protocol_sha256": "073bf0bf72e5de38ba93e2eaa98e68ebaa1bbaebe04d739f7fc7e73bf45b3621",
+  "recipe": {
+    "batch_size": 16,
+    "early_stopping_patience": 2,
+    "epochs": 8,
+    "eval_batch_size": 32,
+    "fp16": true,
+    "learning_rate": 2e-05,
+    "max_grad_norm": 1.0,
+    "max_length": 128,
+    "model": "FacebookAI/roberta-base",
+    "pair_order": "sentence_first",
+    "revision": "e2da8e2f811d1448a5b465c236feacd80ffbac7b",
+    "warmup_ratio": 0.1,
+    "weight_decay": 0.01
+  },
+  "runtime_min": 1.0183600703875224,
+  "seed": 13,
+  "train_rows": 2576
+}

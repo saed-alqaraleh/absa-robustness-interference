@@ -1,0 +1,52 @@
+{
+  "eval_summary": {
+    "AddDiff": {
+      "accuracy": 0.7866071428571428,
+      "macro_f1": 0.6841237855489678
+    },
+    "Clean": {
+      "accuracy": 0.8482142857142857,
+      "macro_f1": 0.7672888856467184
+    },
+    "RevNon": {
+      "accuracy": 0.740990990990991,
+      "macro_f1": 0.5623717094751345
+    },
+    "RevTgt": {
+      "accuracy": 0.851063829787234,
+      "macro_f1": 0.6169945370142366
+    }
+  },
+  "hyperparameters": {
+    "bf16": false,
+    "early_stopping_patience": 2,
+    "epochs": 8.0,
+    "eval_batch_size": 32,
+    "fp16": true,
+    "learning_rate": 2e-05,
+    "max_length": 128,
+    "train_batch_size": 16,
+    "warmup_ratio": 0.1,
+    "weight_decay": 0.01
+  },
+  "model_name": "answerdotai/ModernBERT-base",
+  "model_revision": "8949b909ec900327062f0ebf497f51aef5e6f0c8",
+  "pair_order": "sentence_first",
+  "prediction_files": {
+    "AddDiff": "predictions_adddiff.csv",
+    "Clean": "predictions_clean.csv",
+    "RevNon": "predictions_revnon.csv",
+    "RevTgt": "predictions_revtgt.csv"
+  },
+  "run_signature": "b0934ace88f8b3379f22fd50acf5fad334e1949d8703f4f3bcab4611e02ea26f",
+  "seed": 37,
+  "train_runtime_seconds": 173.81153416633606,
+  "trainer_metrics": {
+    "epoch": 8.0,
+    "total_flos": 1182330104432796.0,
+    "train_loss": 0.2673315829989637,
+    "train_runtime": 173.3357,
+    "train_samples_per_second": 205.613,
+    "train_steps_per_second": 12.877
+  }
+}
