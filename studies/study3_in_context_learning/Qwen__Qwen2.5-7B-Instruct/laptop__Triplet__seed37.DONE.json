@@ -1,0 +1,53 @@
+{
+  "accuracy": {
+    "AddDiff": 0.7852664576802508,
+    "Clean": 0.8025078369905956,
+    "RevNon": 0.8296296296296296,
+    "RevTgt": 0.7339055793991416
+  },
+  "batch_size": 64,
+  "condition": "Triplet",
+  "csv_sha256": "0ef90fb28133a90fd5cce42631264a6c379179c77d46ef10249c41ef2c8972f9",
+  "domain": "laptop",
+  "dtype": "torch.bfloat16",
+  "fallback_items": 0,
+  "label_token_ids": {
+    "negative": [
+      8225,
+      38489,
+      42224,
+      50857
+    ],
+    "neutral": [
+      20628,
+      58694,
+      59568,
+      86907
+    ],
+    "positive": [
+      6785,
+      30487,
+      35490,
+      43903
+    ]
+  },
+  "max_items": null,
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "n": {
+    "AddDiff": 638,
+    "Clean": 638,
+    "RevNon": 135,
+    "RevTgt": 466
+  },
+  "prefix_cache": true,
+  "seconds": 7.6,
+  "seed": 37,
+  "signature": {
+    "demonstrations_sha256": "54fc889c2d4f15f15b3c930a648ce9a228f12fcb5823662cb2a21d59db840879",
+    "instruction_sha256": "71518ebbb43723c272554eb780d5f928ffc9ac08dc35f35fda2f805449a45050",
+    "k": 6,
+    "max_items": null,
+    "model": "Qwen/Qwen2.5-7B-Instruct",
+    "scoring_version": "label-first-token-logsumexp/v1"
+  }
+}
