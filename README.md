@@ -46,6 +46,13 @@ The saved-result checks do not establish that independently retraining pretraine
 | [`docs/`](docs/) | Data access, evidentiary mapping and reproducibility scope |
 | [`reproducibility/`](reproducibility/) | Release hashes and original-to-public derivative trace |
 
-## Citation
+## Release and citation
 
-Saed Alqaraleh. *One-Sided Data Augmentation Pits Sensitivity against Invariance in Aspect-Based Sentiment Analysis*. Manuscript. Use the journal article's final bibliographic citation after publication. No article DOI or software archive DOI is assigned in this repository. See `CITATION.cff`.
+The initial verified research package is published as [version 1.0.0](https://github.com/saed-alqaraleh/absa-robustness-interference/releases/tag/v1.0.0) (17 October 2026). The release includes the four-study experimental archive, machine-readable results, supplementary Tables S1–S16, and verification scripts.
+
+**Cite the research software and supplementary evidence as:**
+
+Alqaraleh, S. (2026). *One-Sided Data Augmentation Pits Sensitivity against Invariance in Aspect-Based Sentiment Analysis: Research Software and Supplementary Evidence* (Version 1.0.0) [Research software and supplementary materials]. GitHub. https://github.com/saed-alqaraleh/absa-robustness-interference/releases/tag/v1.0.0
+
+Machine-readable and reference-manager formats are provided in [CITATION.cff](CITATION.cff) and [CITATION.bib](CITATION.bib). The accompanying journal article should be cited separately using its published bibliographic record.
+

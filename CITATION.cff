@@ -1,8 +1,31 @@
 cff-version: 1.2.0
-message: "Please cite the accompanying manuscript and, when available, its archived software release."
-title: "One-Sided Data Augmentation Pits Sensitivity against Invariance in Aspect-Based Sentiment Analysis"
+message: "Please cite this research software release when using the accompanying implementations, predictions, analyses, or supplementary evidence."
 type: software
+title: "One-Sided Data Augmentation Pits Sensitivity against Invariance in Aspect-Based Sentiment Analysis: Research Software and Supplementary Evidence"
+abstract: >-
+  Research software and supporting experimental evidence accompanying the
+  manuscript One-Sided Data Augmentation Pits Sensitivity against Invariance
+  in Aspect-Based Sentiment Analysis. The archive covers four studies of
+  robustness transfer: 174 controlled encoder runs, 122 augmentation-strategy
+  runs, 64 in-context-learning inference jobs, and 24 LoRA fine-tuning runs
+  plus two zero-shot evaluations. It includes study implementations,
+  source-text-free frozen prediction records, numerical summaries,
+  supplementary Tables S1–S16, and offline verification utilities.
 authors:
   - family-names: Alqaraleh
     given-names: Saed
+    affiliation: "Mutah University, Karak, Jordan"
+    orcid: "https://orcid.org/0000-0002-7146-3905"
+version: 1.0.0
+date-released: 2026-10-17
 repository-code: "https://github.com/saed-alqaraleh/absa-robustness-interference"
+url: "https://github.com/saed-alqaraleh/absa-robustness-interference/releases/tag/v1.0.0"
+keywords:
+  - aspect-based sentiment analysis
+  - robustness transfer
+  - counterfactual data augmentation
+  - sensitivity
+  - invariance
+  - in-context learning
+  - LoRA fine-tuning
+  - reproducibility
