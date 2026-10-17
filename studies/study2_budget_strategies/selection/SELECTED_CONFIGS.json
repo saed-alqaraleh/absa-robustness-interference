@@ -1,0 +1,885 @@
+{
+  "candidates": [
+    {
+      "J": 43.31383622428399,
+      "S": 53.209062362,
+      "W": 63.104288499,
+      "clean": 73.333333333,
+      "condition": "SCCT",
+      "config": {
+        "lambda_i": 0.25,
+        "lambda_s": 0.25,
+        "margin": 1.0
+      },
+      "config_id": "lambda_i0.25_lambda_s0.25_margin1.0",
+      "control": "Paired",
+      "control_clean": 75.33333333333334,
+      "eligible": false,
+      "per_domain": {
+        "laptop": {
+          "J": 35.13513513513514,
+          "W": 56.57894736842105,
+          "clean": 70.0,
+          "n_joint": 74
+        },
+        "restaurant": {
+          "J": 51.49253731343284,
+          "W": 69.62962962962963,
+          "clean": 76.66666666666667,
+          "n_joint": 134
+        }
+      },
+      "weight_sum": 0.5
+    },
+    {
+      "J": 43.75756353368294,
+      "S": 52.450650449,
+      "W": 61.143737364,
+      "clean": 75.333333333,
+      "condition": "SCCT",
+      "config": {
+        "lambda_i": 0.25,
+        "lambda_s": 0.5,
+        "margin": 1.0
+      },
+      "config_id": "lambda_i0.25_lambda_s0.5_margin1.0",
+      "control": "Paired",
+      "control_clean": 75.33333333333334,
+      "eligible": true,
+      "per_domain": {
+        "laptop": {
+          "J": 33.78378378378378,
+          "W": 55.319148936170215,
+          "clean": 73.33333333333333,
+          "n_joint": 74
+        },
+        "restaurant": {
+          "J": 53.73134328358209,
+          "W": 66.9683257918552,
+          "clean": 77.33333333333333,
+          "n_joint": 134
+        }
+      },
+      "weight_sum": 0.75
+    },
+    {
+      "J": 45.10891488503429,
+      "S": 55.004147845,
+      "W": 64.899380805,
+      "clean": 75.666666667,
+      "condition": "SCCT",
+      "config": {
+        "lambda_i": 0.25,
+        "lambda_s": 1.0,
+        "margin": 1.0
+      },
+      "config_id": "lambda_i0.25_lambda_s1.0_margin1.0",
+      "control": "Paired",
+      "control_clean": 75.33333333333334,
+      "eligible": true,
+      "per_domain": {
+        "laptop": {
+          "J": 36.486486486486484,
+          "W": 59.210526315789465,
+          "clean": 72.66666666666667,
+          "n_joint": 74
+        },
+        "restaurant": {
+          "J": 53.73134328358209,
+          "W": 70.58823529411765,
+          "clean": 78.66666666666666,
+          "n_joint": 134
+        }
+      },
+      "weight_sum": 1.25
+    },
+    {
+      "J": 46.22831787010891,
+      "S": 55.107676473,
+      "W": 63.987035076,
+      "clean": 72.333333333,
+      "condition": "SCCT",
+      "config": {
+        "lambda_i": 0.5,
+        "lambda_s": 0.25,
+        "margin": 1.0
+      },
+      "config_id": "lambda_i0.5_lambda_s0.25_margin1.0",
+      "control": "Paired",
+      "control_clean": 75.33333333333334,
+      "eligible": false,
+      "per_domain": {
+        "laptop": {
+          "J": 36.486486486486484,
+          "W": 56.02836879432624,
+          "clean": 67.33333333333333,
+          "n_joint": 74
+        },
+        "restaurant": {
+          "J": 55.970149253731336,
+          "W": 71.94570135746606,
+          "clean": 77.33333333333333,
+          "n_joint": 134
+        }
+      },
+      "weight_sum": 0.75
+    },
+    {
+      "J": 42.2650262202501,
+      "S": 52.153001684,
+      "W": 62.040977147,
+      "clean": 71.0,
+      "condition": "SCCT",
+      "config": {
+        "lambda_i": 0.5,
+        "lambda_s": 0.5,
+        "margin": 1.0
+      },
+      "config_id": "lambda_i0.5_lambda_s0.5_margin1.0",
+      "control": "Paired",
+      "control_clean": 75.33333333333334,
+      "eligible": false,
+      "per_domain": {
+        "laptop": {
+          "J": 33.78378378378378,
+          "W": 58.156028368794324,
+          "clean": 67.33333333333333,
+          "n_joint": 74
+        },
+        "restaurant": {
+          "J": 50.74626865671642,
+          "W": 65.92592592592592,
+          "clean": 74.66666666666667,
+          "n_joint": 134
+        }
+      },
+      "weight_sum": 1.0
+    },
+    {
+      "J": 27.238805970149254,
+      "S": 36.735025752,
+      "W": 46.231245535,
+      "clean": 58.666666667,
+      "condition": "SCCT",
+      "config": {
+        "lambda_i": 0.5,
+        "lambda_s": 1.0,
+        "margin": 1.0
+      },
+      "config_id": "lambda_i0.5_lambda_s1.0_margin1.0",
+      "control": "Paired",
+      "control_clean": 75.33333333333334,
+      "eligible": false,
+      "per_domain": {
+        "laptop": {
+          "J": 0.0,
+          "W": 23.684210526315788,
+          "clean": 38.0,
+          "n_joint": 74
+        },
+        "restaurant": {
+          "J": 54.47761194029851,
+          "W": 68.77828054298642,
+          "clean": 79.33333333333333,
+          "n_joint": 134
+        }
+      },
+      "weight_sum": 1.5
+    },
+    {
+      "J": 41.58935054457443,
+      "S": 48.315454451,
+      "W": 55.041558358,
+      "clean": 74.0,
+      "condition": "SCCT",
+      "config": {
+        "lambda_i": 1.0,
+        "lambda_s": 0.25,
+        "margin": 1.0
+      },
+      "config_id": "lambda_i1.0_lambda_s0.25_margin1.0",
+      "control": "Paired",
+      "control_clean": 75.33333333333334,
+      "eligible": false,
+      "per_domain": {
+        "laptop": {
+          "J": 32.432432432432435,
+          "W": 50.35460992907801,
+          "clean": 67.33333333333333,
+          "n_joint": 74
+        },
+        "restaurant": {
+          "J": 50.74626865671642,
+          "W": 59.72850678733032,
+          "clean": 80.66666666666666,
+          "n_joint": 134
+        }
+      },
+      "weight_sum": 1.25
+    },
+    {
+      "J": 39.02783380395321,
+      "S": 49.908480619,
+      "W": 60.789127435,
+      "clean": 72.333333333,
+      "condition": "SCCT",
+      "config": {
+        "lambda_i": 1.0,
+        "lambda_s": 0.5,
+        "margin": 1.0
+      },
+      "config_id": "lambda_i1.0_lambda_s0.5_margin1.0",
+      "control": "Paired",
+      "control_clean": 75.33333333333334,
+      "eligible": false,
+      "per_domain": {
+        "laptop": {
+          "J": 24.324324324324326,
+          "W": 54.60992907801418,
+          "clean": 65.33333333333333,
+          "n_joint": 74
+        },
+        "restaurant": {
+          "J": 53.73134328358209,
+          "W": 66.9683257918552,
+          "clean": 79.33333333333333,
+          "n_joint": 134
+        }
+      },
+      "weight_sum": 1.5
+    },
+    {
+      "J": 0.0,
+      "S": 10.735867446,
+      "W": 21.471734893,
+      "clean": 30.0,
+      "condition": "SCCT",
+      "config": {
+        "lambda_i": 1.0,
+        "lambda_s": 1.0,
+        "margin": 1.0
+      },
+      "config_id": "lambda_i1.0_lambda_s1.0_margin1.0",
+      "control": "Paired",
+      "control_clean": 75.33333333333334,
+      "eligible": false,
+      "per_domain": {
+        "laptop": {
+          "J": 0.0,
+          "W": 23.684210526315788,
+          "clean": 38.0,
+          "n_joint": 74
+        },
+        "restaurant": {
+          "J": 0.0,
+          "W": 19.25925925925926,
+          "clean": 22.0,
+          "n_joint": 134
+        }
+      },
+      "weight_sum": 2.0
+    },
+    {
+      "J": 18.858410649455426,
+      "S": 26.992558151,
+      "W": 35.126705653,
+      "clean": 72.333333333,
+      "condition": "BAT",
+      "config": {
+        "lambda_bat": 0.25,
+        "margin": 1.0
+      },
+      "config_id": "lambda_bat0.25_margin1.0",
+      "control": "BAT_CE",
+      "control_clean": 72.66666666666666,
+      "eligible": true,
+      "per_domain": {
+        "laptop": {
+          "J": 17.56756756756757,
+          "W": 42.10526315789473,
+          "clean": 68.66666666666667,
+          "n_joint": 74
+        },
+        "restaurant": {
+          "J": 20.149253731343283,
+          "W": 28.14814814814815,
+          "clean": 76.0,
+          "n_joint": 134
+        }
+      },
+      "weight_sum": 0.25
+    },
+    {
+      "J": 16.90197660346914,
+      "S": 25.25410721,
+      "W": 33.606237817,
+      "clean": 71.333333333,
+      "condition": "BAT",
+      "config": {
+        "lambda_bat": 0.5,
+        "margin": 1.0
+      },
+      "config_id": "lambda_bat0.5_margin1.0",
+      "control": "BAT_CE",
+      "control_clean": 72.66666666666666,
+      "eligible": false,
+      "per_domain": {
+        "laptop": {
+          "J": 12.162162162162163,
+          "W": 36.84210526315789,
+          "clean": 65.33333333333333,
+          "n_joint": 74
+        },
+        "restaurant": {
+          "J": 21.641791044776117,
+          "W": 30.37037037037037,
+          "clean": 77.33333333333333,
+          "n_joint": 134
+        }
+      },
+      "weight_sum": 0.5
+    },
+    {
+      "J": 21.238402581686163,
+      "S": 28.431092129,
+      "W": 35.623781676,
+      "clean": 71.666666667,
+      "condition": "BAT",
+      "config": {
+        "lambda_bat": 1.0,
+        "margin": 1.0
+      },
+      "config_id": "lambda_bat1.0_margin1.0",
+      "control": "BAT_CE",
+      "control_clean": 72.66666666666666,
+      "eligible": true,
+      "per_domain": {
+        "laptop": {
+          "J": 14.864864864864865,
+          "W": 34.21052631578947,
+          "clean": 70.66666666666667,
+          "n_joint": 74
+        },
+        "restaurant": {
+          "J": 27.611940298507463,
+          "W": 37.03703703703704,
+          "clean": 72.66666666666667,
+          "n_joint": 134
+        }
+      },
+      "weight_sum": 1.0
+    },
+    {
+      "J": 19.493747478822105,
+      "S": 24.23761448,
+      "W": 28.981481481,
+      "clean": 66.0,
+      "condition": "Fei",
+      "config": {
+        "lambda_f": 0.25,
+        "mu": 0.05
+      },
+      "config_id": "lambda_f0.25_mu0.05",
+      "control": "Fei_CE",
+      "control_clean": 77.0,
+      "eligible": false,
+      "per_domain": {
+        "laptop": {
+          "J": 5.405405405405405,
+          "W": 17.22222222222222,
+          "clean": 61.33333333333333,
+          "n_joint": 74
+        },
+        "restaurant": {
+          "J": 33.582089552238806,
+          "W": 40.74074074074074,
+          "clean": 70.66666666666667,
+          "n_joint": 134
+        }
+      },
+      "weight_sum": 0.25
+    },
+    {
+      "J": 22.408229124647036,
+      "S": 24.907818266,
+      "W": 27.407407407,
+      "clean": 68.0,
+      "condition": "Fei",
+      "config": {
+        "lambda_f": 0.5,
+        "mu": 0.05
+      },
+      "config_id": "lambda_f0.5_mu0.05",
+      "control": "Fei_CE",
+      "control_clean": 77.0,
+      "eligible": false,
+      "per_domain": {
+        "laptop": {
+          "J": 6.756756756756757,
+          "W": 6.666666666666667,
+          "clean": 62.0,
+          "n_joint": 74
+        },
+        "restaurant": {
+          "J": 38.059701492537314,
+          "W": 48.148148148148145,
+          "clean": 74.0,
+          "n_joint": 134
+        }
+      },
+      "weight_sum": 0.5
+    },
+    {
+      "J": 11.8192819685357,
+      "S": 13.422661818,
+      "W": 15.026041667,
+      "clean": 63.333333333,
+      "condition": "Fei",
+      "config": {
+        "lambda_f": 1.0,
+        "mu": 0.05
+      },
+      "config_id": "lambda_f1.0_mu0.05",
+      "control": "Fei_CE",
+      "control_clean": 77.0,
+      "eligible": false,
+      "per_domain": {
+        "laptop": {
+          "J": 9.45945945945946,
+          "W": 18.333333333333332,
+          "clean": 60.0,
+          "n_joint": 74
+        },
+        "restaurant": {
+          "J": 14.17910447761194,
+          "W": 11.71875,
+          "clean": 66.66666666666666,
+          "n_joint": 134
+        }
+      },
+      "weight_sum": 1.0
+    },
+    {
+      "J": 19.423154497781365,
+      "S": 30.362162044,
+      "W": 41.301169591,
+      "clean": 69.333333333,
+      "condition": "Fei",
+      "config": {
+        "lambda_f": 0.25,
+        "mu": 0.1
+      },
+      "config_id": "lambda_f0.25_mu0.1",
+      "control": "Fei_CE",
+      "control_clean": 77.0,
+      "eligible": false,
+      "per_domain": {
+        "laptop": {
+          "J": 6.756756756756757,
+          "W": 38.15789473684211,
+          "clean": 62.66666666666667,
+          "n_joint": 74
+        },
+        "restaurant": {
+          "J": 32.08955223880597,
+          "W": 44.44444444444444,
+          "clean": 76.0,
+          "n_joint": 134
+        }
+      },
+      "weight_sum": 0.25
+    },
+    {
+      "J": 19.493747478822105,
+      "S": 24.23761448,
+      "W": 28.981481481,
+      "clean": 66.0,
+      "condition": "Fei",
+      "config": {
+        "lambda_f": 0.5,
+        "mu": 0.1
+      },
+      "config_id": "lambda_f0.5_mu0.1",
+      "control": "Fei_CE",
+      "control_clean": 77.0,
+      "eligible": false,
+      "per_domain": {
+        "laptop": {
+          "J": 5.405405405405405,
+          "W": 17.22222222222222,
+          "clean": 61.33333333333333,
+          "n_joint": 74
+        },
+        "restaurant": {
+          "J": 33.582089552238806,
+          "W": 40.74074074074074,
+          "clean": 70.66666666666667,
+          "n_joint": 134
+        }
+      },
+      "weight_sum": 0.5
+    },
+    {
+      "J": 22.408229124647036,
+      "S": 24.907818266,
+      "W": 27.407407407,
+      "clean": 68.0,
+      "condition": "Fei",
+      "config": {
+        "lambda_f": 1.0,
+        "mu": 0.1
+      },
+      "config_id": "lambda_f1.0_mu0.1",
+      "control": "Fei_CE",
+      "control_clean": 77.0,
+      "eligible": false,
+      "per_domain": {
+        "laptop": {
+          "J": 6.756756756756757,
+          "W": 6.666666666666667,
+          "clean": 62.0,
+          "n_joint": 74
+        },
+        "restaurant": {
+          "J": 38.059701492537314,
+          "W": 48.148148148148145,
+          "clean": 74.0,
+          "n_joint": 134
+        }
+      },
+      "weight_sum": 1.0
+    },
+    {
+      "J": 13.755546591367487,
+      "S": 22.896291814,
+      "W": 32.037037037,
+      "clean": 69.0,
+      "condition": "Fei",
+      "config": {
+        "lambda_f": 0.25,
+        "mu": 0.2
+      },
+      "config_id": "lambda_f0.25_mu0.2",
+      "control": "Fei_CE",
+      "control_clean": 77.0,
+      "eligible": false,
+      "per_domain": {
+        "laptop": {
+          "J": 8.108108108108109,
+          "W": 38.88888888888889,
+          "clean": 63.33333333333333,
+          "n_joint": 74
+        },
+        "restaurant": {
+          "J": 19.402985074626866,
+          "W": 25.185185185185183,
+          "clean": 74.66666666666667,
+          "n_joint": 134
+        }
+      },
+      "weight_sum": 0.25
+    },
+    {
+      "J": 8.229124647035094,
+      "S": 20.101999809,
+      "W": 31.97487497,
+      "clean": 63.333333333,
+      "condition": "Fei",
+      "config": {
+        "lambda_f": 0.5,
+        "mu": 0.2
+      },
+      "config_id": "lambda_f0.5_mu0.2",
+      "control": "Fei_CE",
+      "control_clean": 77.0,
+      "eligible": false,
+      "per_domain": {
+        "laptop": {
+          "J": 6.756756756756757,
+          "W": 38.15789473684211,
+          "clean": 62.66666666666667,
+          "n_joint": 74
+        },
+        "restaurant": {
+          "J": 9.701492537313433,
+          "W": 25.791855203619914,
+          "clean": 64.0,
+          "n_joint": 134
+        }
+      },
+      "weight_sum": 0.5
+    },
+    {
+      "J": 17.254941508672854,
+      "S": 22.192285569,
+      "W": 27.12962963,
+      "clean": 67.0,
+      "condition": "Fei",
+      "config": {
+        "lambda_f": 1.0,
+        "mu": 0.2
+      },
+      "config_id": "lambda_f1.0_mu0.2",
+      "control": "Fei_CE",
+      "control_clean": 77.0,
+      "eligible": false,
+      "per_domain": {
+        "laptop": {
+          "J": 5.405405405405405,
+          "W": 17.22222222222222,
+          "clean": 61.33333333333333,
+          "n_joint": 74
+        },
+        "restaurant": {
+          "J": 29.1044776119403,
+          "W": 37.03703703703704,
+          "clean": 72.66666666666667,
+          "n_joint": 134
+        }
+      },
+      "weight_sum": 1.0
+    },
+    {
+      "J": 32.22065348931021,
+      "S": 40.308041837,
+      "W": 48.395430185,
+      "clean": 73.333333333,
+      "condition": "Consistency",
+      "config": {
+        "lambda_c": 0.25
+      },
+      "config_id": "lambda_c0.25",
+      "control": "Mixed",
+      "control_clean": 76.33333333333334,
+      "eligible": false,
+      "per_domain": {
+        "laptop": {
+          "J": 18.91891891891892,
+          "W": 41.13475177304964,
+          "clean": 71.33333333333334,
+          "n_joint": 74
+        },
+        "restaurant": {
+          "J": 45.52238805970149,
+          "W": 55.65610859728507,
+          "clean": 75.33333333333333,
+          "n_joint": 134
+        }
+      },
+      "weight_sum": 0.25
+    },
+    {
+      "J": 36.325131101250506,
+      "S": 46.41422628,
+      "W": 56.50332146,
+      "clean": 75.666666667,
+      "condition": "Consistency",
+      "config": {
+        "lambda_c": 0.5
+      },
+      "config_id": "lambda_c0.5",
+      "control": "Mixed",
+      "control_clean": 76.33333333333334,
+      "eligible": true,
+      "per_domain": {
+        "laptop": {
+          "J": 18.91891891891892,
+          "W": 44.680851063829785,
+          "clean": 72.0,
+          "n_joint": 74
+        },
+        "restaurant": {
+          "J": 53.73134328358209,
+          "W": 68.32579185520362,
+          "clean": 79.33333333333333,
+          "n_joint": 134
+        }
+      },
+      "weight_sum": 0.5
+    },
+    {
+      "J": 36.395724082291245,
+      "S": 44.966900262,
+      "W": 53.538076442,
+      "clean": 75.333333333,
+      "condition": "Consistency",
+      "config": {
+        "lambda_c": 1.0
+      },
+      "config_id": "lambda_c1.0",
+      "control": "Mixed",
+      "control_clean": 76.33333333333334,
+      "eligible": false,
+      "per_domain": {
+        "laptop": {
+          "J": 17.56756756756757,
+          "W": 38.297872340425535,
+          "clean": 72.0,
+          "n_joint": 74
+        },
+        "restaurant": {
+          "J": 55.223880597014926,
+          "W": 68.77828054298642,
+          "clean": 78.66666666666666,
+          "n_joint": 134
+        }
+      },
+      "weight_sum": 1.0
+    },
+    {
+      "J": 46.08713190802743,
+      "S": 55.159405198,
+      "W": 64.231678487,
+      "clean": 74.666666667,
+      "condition": "GroupDRO",
+      "config": {
+        "eta": 0.01
+      },
+      "config_id": "eta0.01",
+      "control": "Mixed",
+      "control_clean": 76.33333333333334,
+      "eligible": false,
+      "per_domain": {
+        "laptop": {
+          "J": 39.189189189189186,
+          "W": 59.57446808510638,
+          "clean": 72.66666666666667,
+          "n_joint": 74
+        },
+        "restaurant": {
+          "J": 52.98507462686567,
+          "W": 68.88888888888889,
+          "clean": 76.66666666666667,
+          "n_joint": 134
+        }
+      },
+      "weight_sum": 0.01
+    },
+    {
+      "J": 47.20653489310206,
+      "S": 53.707404028,
+      "W": 60.208273162,
+      "clean": 73.666666667,
+      "condition": "GroupDRO",
+      "config": {
+        "eta": 0.1
+      },
+      "config_id": "eta0.1",
+      "control": "Mixed",
+      "control_clean": 76.33333333333334,
+      "eligible": false,
+      "per_domain": {
+        "laptop": {
+          "J": 39.189189189189186,
+          "W": 53.90070921985816,
+          "clean": 71.33333333333334,
+          "n_joint": 74
+        },
+        "restaurant": {
+          "J": 55.223880597014926,
+          "W": 66.51583710407239,
+          "clean": 76.0,
+          "n_joint": 134
+        }
+      },
+      "weight_sum": 0.1
+    },
+    {
+      "J": 9.045986284792255,
+      "S": 21.517794336,
+      "W": 33.989602388,
+      "clean": 65.0,
+      "condition": "GroupDRO",
+      "config": {
+        "eta": 1.0
+      },
+      "config_id": "eta1.0",
+      "control": "Mixed",
+      "control_clean": 76.33333333333334,
+      "eligible": false,
+      "per_domain": {
+        "laptop": {
+          "J": 5.405405405405405,
+          "W": 34.04255319148936,
+          "clean": 63.33333333333333,
+          "n_joint": 74
+        },
+        "restaurant": {
+          "J": 12.686567164179104,
+          "W": 33.93665158371041,
+          "clean": 66.66666666666666,
+          "n_joint": 134
+        }
+      },
+      "weight_sum": 1.0
+    }
+  ],
+  "rule": "protocol v1.0 Decision 6",
+  "selected": {
+    "BAT": {
+      "J_dev": 21.238402581686163,
+      "S_dev": 28.431092129,
+      "W_dev": 35.623781676,
+      "clean_dev": 71.666666667,
+      "config": {
+        "lambda_bat": 1.0,
+        "margin": 1.0
+      },
+      "control": "BAT_CE",
+      "control_clean_dev": 72.66666666666666,
+      "no_candidate_passed_clean_guard": false
+    },
+    "Consistency": {
+      "J_dev": 36.325131101250506,
+      "S_dev": 46.41422628,
+      "W_dev": 56.50332146,
+      "clean_dev": 75.666666667,
+      "config": {
+        "lambda_c": 0.5
+      },
+      "control": "Mixed",
+      "control_clean_dev": 76.33333333333334,
+      "no_candidate_passed_clean_guard": false
+    },
+    "Fei": {
+      "J_dev": 19.423154497781365,
+      "S_dev": 30.362162044,
+      "W_dev": 41.301169591,
+      "clean_dev": 69.333333333,
+      "config": {
+        "lambda_f": 0.25,
+        "mu": 0.1
+      },
+      "control": "Fei_CE",
+      "control_clean_dev": 77.0,
+      "no_candidate_passed_clean_guard": true
+    },
+    "GroupDRO": {
+      "J_dev": 46.08713190802743,
+      "S_dev": 55.159405198,
+      "W_dev": 64.231678487,
+      "clean_dev": 74.666666667,
+      "config": {
+        "eta": 0.01
+      },
+      "control": "Mixed",
+      "control_clean_dev": 76.33333333333334,
+      "no_candidate_passed_clean_guard": true
+    },
+    "SCCT": {
+      "J_dev": 45.10891488503429,
+      "S_dev": 55.004147845,
+      "W_dev": 64.899380805,
+      "clean_dev": 75.666666667,
+      "config": {
+        "lambda_i": 0.25,
+        "lambda_s": 1.0,
+        "margin": 1.0
+      },
+      "control": "Paired",
+      "control_clean_dev": 75.33333333333334,
+      "no_candidate_passed_clean_guard": false
+    }
+  },
+  "tuning_seed": 101
+}

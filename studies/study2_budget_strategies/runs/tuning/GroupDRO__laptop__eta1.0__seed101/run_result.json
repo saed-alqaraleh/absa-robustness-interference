@@ -1,0 +1,96 @@
+{
+  "amendments": {
+    "date": "2026-10-07",
+    "fei_infonce": false,
+    "tuning_set": "dev+reserved",
+    "version": "1.1"
+  },
+  "best_dev_accuracy": 0.6333333333333333,
+  "best_epoch": 1,
+  "code_sha256": {
+    "common.py": "4db76d7384fd1ed2761b2bc0bb6daf9901a56a545deadea7da6a139b8703e78b",
+    "losses.py": "d27adbd26063408a78bd70803aa5ab15ed613c7776f99b0a909555f6eecd58da",
+    "trainer.py": "7d0b0e0c818b97f9e5c51590bceeeba4bafb341193e74648bd366c1f360a3c3f"
+  },
+  "condition": "GroupDRO",
+  "config": {
+    "eta": 1.0
+  },
+  "domain": "laptop",
+  "environment": {
+    "gpu": "NVIDIA A100-SXM4-40GB",
+    "python": "3.13.15",
+    "torch": "2.11.0+cu130",
+    "transformers": "5.18.0"
+  },
+  "eval_summary": {
+    "CleanDev": {
+      "accuracy": 0.6333333333333333,
+      "macro_f1": 0.52118836235059,
+      "n": 150
+    },
+    "DevAD": {
+      "accuracy": 0.6111111111111112,
+      "macro_f1": 0.4047886270108492,
+      "n": 180
+    },
+    "DevRN": {
+      "accuracy": 0.6578947368421053,
+      "macro_f1": 0.4306471306471306,
+      "n": 76
+    },
+    "DevRT": {
+      "accuracy": 0.3404255319148936,
+      "macro_f1": 0.20442147573930516,
+      "n": 141
+    }
+  },
+  "grouped": false,
+  "history": [
+    {
+      "aux_loss": 0.0,
+      "dev_accuracy": 0.6333333333333333,
+      "epoch": 1,
+      "train_loss": 0.8954569902849494
+    },
+    {
+      "aux_loss": 0.0,
+      "dev_accuracy": 0.5933333333333334,
+      "epoch": 2,
+      "train_loss": 0.800585689051072
+    },
+    {
+      "aux_loss": 0.0,
+      "dev_accuracy": 0.58,
+      "epoch": 3,
+      "train_loss": 0.6972200558199988
+    }
+  ],
+  "method": "groupdro",
+  "phase": "tuning",
+  "prediction_files": {
+    "CleanDev": "predictions_CleanDev.csv",
+    "DevAD": "predictions_DevAD.csv",
+    "DevRN": "predictions_DevRN.csv",
+    "DevRT": "predictions_DevRT.csv"
+  },
+  "protocol_sha256": "073bf0bf72e5de38ba93e2eaa98e68ebaa1bbaebe04d739f7fc7e73bf45b3621",
+  "recipe": {
+    "batch_size": 16,
+    "early_stopping_patience": 2,
+    "epochs": 8,
+    "eval_batch_size": 32,
+    "fp16": true,
+    "learning_rate": 2e-05,
+    "max_grad_norm": 1.0,
+    "max_length": 128,
+    "model": "FacebookAI/roberta-base",
+    "pair_order": "sentence_first",
+    "revision": "e2da8e2f811d1448a5b465c236feacd80ffbac7b",
+    "warmup_ratio": 0.1,
+    "weight_decay": 0.01
+  },
+  "runtime_min": 0.439794921875,
+  "seed": 101,
+  "train_rows": 2576
+}
